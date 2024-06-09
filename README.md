@@ -8,6 +8,7 @@ Welcome to the i18n JSON Editor! This Vue application simplifies the process of 
 - **Edit Translations in a Table View**: The app presents the translations in a table view, making it easy to edit and manage them.
 - **Download Edited Files**: After editing, you can download the resulting JSON translation files for use in your projects.
 
+![Interface screenshot](./ui.png)
 ## Getting Started
 
 To get a local copy of this project up and running, follow these simple steps.
@@ -47,7 +48,7 @@ This will launch the app and you can view it in your browser (see your terminal 
 - **Edit Translations:** The translations will be displayed in a table. Edit the values as needed.
 - **Download Edited Files:** Once you're done with the edits, click the "Download files" button to download the updated JSON files.
 
-![Interface screenshot](./ui.png)
+
 
 ## Contributing
 
