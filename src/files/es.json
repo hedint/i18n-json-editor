@@ -1,0 +1,915 @@
+{
+  "meta": {
+    "title": "HAWKED: Juega gratis en PC, PS5, PS4 y Xbox Series X|S",
+    "description": "HAWKED es un shooter de extracción online gratuito disponible en PC de Windows, PS4, PS5 y Xbox Series XS. Únete a la búsqueda de tesoros definitiva. Vive aventuras y lucha en un mundo misterioso mientras sigues la pista de tesoros ancestrales.",
+    "sharing_title": "HAWKED: Juega gratis en PC, PS5, PS4 y Xbox Series X|S",
+    "sharing_description": "HAWKED es un shooter de extracción online gratuito disponible en PC de Windows, PS4, PS5 y Xbox Series XS. Únete a la búsqueda de tesoros definitiva. Vive aventuras y lucha en un mundo misterioso mientras sigues la pista de tesoros ancestrales."
+  },
+  "common": {
+    "login": "Iniciar sesión",
+    "logout": "Abmelden",
+    "timer": {
+      "days": "DÍAS",
+      "hours": "HORAS",
+      "minutes": "MINUTOS",
+      "seconds": "SEGUNDOS"
+    }
+  },
+  "noauth": {
+    "title": "Acceso denegado",
+    "text": "Regístrate o inicia sesión",
+    "button": "INICIA SESIÓN O REGÍSTRATE"
+  },
+  "navigation": {
+    "button": "JUEGA YA",
+    "button_play": "JUEGA YA"
+  },
+  "errors": {
+    "error": "Error",
+    "error_code": "Código de error:",
+    "button": "IR A LA PÁGINA PRINCIPAL",
+    "bubble": "OOOOPSSSS!!!!!!",
+    "default": {
+      "text": "Esta operación no puede ser ejecutada en este momento . Por favor inténtalo de nuevo más tarde."
+    },
+    "400": {
+      "text": "Email incorrecto."
+    },
+    "401": {
+      "text": "Acción no autorizada."
+    },
+    "403": {
+      "text": "Acceso denegado. Inicia sesión para ver la página web."
+    },
+    "404": {
+      "text": "Esta página no existe. Vuelve a la página principal para encontrar lo que estás buscando."
+    },
+    "405": {
+      "text": "Método no permitido."
+    },
+    "408": {
+      "text": "Tiempo de espera agotado"
+    },
+    "429": {
+      "text": "Demasiadas solicitudes."
+    },
+    "500": {
+      "text": "Se ha producido un error inesperado en el servidor. Nuestro equipo lo está solucionando. ¡Entérate de las últimas noticias en nuestras redes sociales!"
+    },
+    "503": {
+      "text": "Esta página está temporalmente fuera de servicio. Nuestro equipo está trabajando en ella. ¡Entérate de las últimas noticias en nuestras redes sociales!"
+    },
+    "504": {
+      "text": "Nuestro equipo está trabajando para solucionar esto. ¡Entérate de las últimas noticias en nuestras redes sociales!"
+    },
+    "1400": {
+      "text": "Tienes que iniciar sesión o registrarte para seguir."
+    },
+    "2105": {
+      "text": "No se ha podido iniciar sesión. Prueba con otro método de autenticación."
+    },
+    "5000": {
+      "text": "Este código promocional no es válido."
+    },
+    "5001": {
+      "text": "Este código promocional no es válido. Vuelve a introducirlo o prueba con uno nuevo."
+    },
+    "5002": {
+      "text": "Este código promocional no está activo todavía. Prueba de nuevo más tarde."
+    },
+    "5003": {
+      "text": "Este código promocional ha caducado."
+    },
+    "5004": {
+      "text": "Ya has usado un código promocional de este tipo."
+    },
+    "5005": {
+      "text": "Se te han acabado los intentos de activación."
+    },
+    "5007": {
+      "text": "Este código promocional no puede canjearse en tu región."
+    },
+    "5008": {
+      "text": "Este código promocional no puede canjearse en tu región."
+    },
+    "5200": {
+      "text": "Ya has usado un código promocional de este tipo."
+    },
+    "5300": {
+      "text": "Has introducido caracteres no válidos, símbolos o números."
+    },
+    "5301": {
+      "text": "Este contenido no está disponible."
+    },
+    "5307": {
+      "text": "Has introducido un código promocional incorrecto."
+    },
+    "5400": {
+      "text": "No se ha podido activar el código promocional. Inténtalo más tarde."
+    },
+    "7104": {
+      "text": "Correo electrónico incorrecto. "
+    },
+    "7106": {
+      "text": "¡Error! Tu cuenta ya está vinculada al correo {email} y suscrita a correos comerciales. "
+    },
+    "7107": {
+      "text": "¡Error! Tu cuenta ya está vinculada al correo {email} y suscrita a correos comerciales. "
+    },
+    "7109": {
+      "text": "Error al enviar: no se ha podido enviar el correo de verificación."
+    },
+    "7110": {
+      "text": "Correo electrónico incorrecto. "
+    },
+    "7111": {
+      "text": "Has excedido el límite de envíos: no se ha podido enviar el correo de verificación. Inténtalo más tarde."
+    },
+    "with_code": {
+      "text": "Esta operación no puede ser ejecutada en este momento. Código de error:"
+    }
+  },
+  "home": {
+    "intro": {
+      "title": "JUNTE-SE À GRANDE CAÇA AO TESOURO!",
+      "button": "¡JUEGA YA!",
+      "button_play": "¡JUEGA YA!"
+    },
+    "rally": {
+      "bubble": "¡EVENTO POR TIEMPO LIMITADO!",
+      "title": "ASALTO<br>NAVIDEÑO",
+      "subtitle": "RESERVA LAS NAVIDADES",
+      "text": "Es hora de engalanar los pasillos de la Estela de la grieta. Haz nuevas misiones de temática festiva para encontrar a un ladrón navideño y un botín exclusivo.",
+      "button": "LEER MÁS"
+    },
+    "raider": {
+      "bubble": "¡SAQUEA!",
+      "title": "¡TESOROS!",
+      "subtitle": "PAQUETES DE SAQUEADOR",
+      "text": "Desbloquea paquetes especiales llenos hasta los topes de divisas del juego, consumibles u objetos estéticos exclusivos.",
+      "button": "COMPRA AHORA"
+    },
+    "top-up": {
+      "bubble": "¡RECARGA!",
+      "title": "DINERO GE-0",
+      "subtitle": "DIVISA PREMIUM",
+      "text": "¿Le has echado el ojo a algo brillante? Compra dinero GE-0 para gastarlo en el pase de renegado, objetos estéticos y más contenidos del juego.",
+      "button": "COMPRA AHORA"
+    },
+    "twitch-drops": {
+      "bubble": "MIRA Y GANA",
+      "title": "DROPS<br>DE TWITCH",
+      "subtitle": "CONÉCTATE Y A SAQUEA",
+      "text": "Ve los streams de HAWKED seleccionados en Twitch para ganar un montón de contenidos del juego. Prepárate vinculando tu cuenta de Twitch hoy mismo.",
+      "button": "EMPIEZA YA"
+    },
+    "trailer": {
+      "button": "VER EL TRÁILER"
+    },
+    "about": {
+      "main": {
+        "bubble": "¡CONVIÉRTETE EN UN RENEGADO!",
+        "title": "¡ÚNETE<br>A LA BÚSQUEDA!",
+        "subtitle": "TE DAMOS LA BIENVENIDA A HAWKED",
+        "text": "HAWKED es un shooter de extracción online gratuito disponible en PC de Windows, PlayStation 4, PlayStation 5 y Xbox Series XS. Únete a la búsqueda de tesoros definitiva. Vive aventuras y lucha en un mundo misterioso mientras sigues la pista de tesoros ancestrales.",
+        "button": "MÁS INFORMACIÓN"
+      },
+      "list": [
+        {
+          "title": "SUPERA EN ASTUCIA Y ARMAMENTO",
+          "text": "Busca armas y municiones para luchar contra despiadados monstruos y el resto de jugadores que recorren la isla."
+        },
+        {
+          "title": "EXPLORA LA ISLA X",
+          "text": "Aventúrate en esta isla misteriosa llena de frondosas llanuras, junglas y antiguas ruinas que no para de evolucionar."
+        },
+        {
+          "title": "SAQUEA",
+          "text": "Resuelve rompecabezas y sé más inteligente que los jugadores enemigos para encontrar tesoros. Extráelos para mejorarlo y desbloquear nuevos poderes."
+        }
+      ]
+    },
+    "faq": {
+      "title": "PREGUNTAS FRECUENTES"
+    },
+    "news": {
+      "title": "NOTICIAS",
+      "bubble": "NO TE PIERDAS NADA",
+      "more": "MÁS NOTICIAS"
+    },
+    "media": {
+      "title": "MEDIOS",
+      "bubble": "DE FOTO",
+      "more": "MÁS"
+    },
+    "social": {
+      "title": [
+        "CONECTA",
+        "CON HAWKED"
+      ],
+      "bubble": "SOCIALIZA",
+      "networks": [
+        {
+          "type": "facebook",
+          "link": "https://www.facebook.com/HAWKEDGame/"
+        },
+        {
+          "type": "instagram",
+          "link": "https://www.instagram.com/playhawked/"
+        },
+        {
+          "type": "youtube",
+          "link": "https://www.youtube.com/{'@'}playHAWKED"
+        },
+        {
+          "type": "twitch",
+          "link": "https://www.twitch.tv/PlayHawked"
+        },
+        {
+          "type": "discord",
+          "link": "https://discord.gg/hawked"
+        },
+        {
+          "type": "tiktok",
+          "link": "https://www.tiktok.com/{'@'}playhawked"
+        },
+        {
+          "type": "reddit",
+          "link": "https://www.reddit.com/r/Hawked/"
+        },
+        {
+          "type": "twitter",
+          "link": "https://twitter.com/PlayHAWKED"
+        }
+      ],
+      "subscribe": {
+        "title": "NEWSLETTER OFICIAL",
+        "text": "Parte con ventaja frente a los renegados rivales con noticias sobre novedades, eventos y ofertas especiales, entre otras cosas, directamente en tu bandeja de entrada. ¡Suscríbete ahora para recibir un <b>gorro de arqueólogo GRATIS</b>!",
+        "button": "¡SUSCRÍBETE!"
+      }
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "LA BÚSQUEDA DEL TESORO DEFINITIVA",
+      "text": "En una misteriosa isla, unos monstruos reptilianos conocidos como discípulos buscan poderosas reliquias de gran poder. Únete a los renegados y combate el fuego con fuego robando, extrayendo y escapando con artefactos."
+    },
+    "features": [
+      {
+        "title": "CAZA Y ACUMULA",
+        "text": "Rapiña armas y munición, mejora tu equipamiento, desbloquea poderes y habilidades especiales, y utiliza artefactos místicos para superar a discípulos y renegados rivales."
+      },
+      {
+        "title": "ADÁPTATE Y SUPÉRALOS",
+        "text": "¡Trabaja mejor, no más duro! Resuelve rompecabezas, esquiva trampas mortales, busca glifos para desbloquear el arca y afina tu capacidad de buscar tesoros para conseguir el mejor botín."
+      },
+      {
+        "title": "EXPLORA Y AVENTÚRATE",
+        "text": "Forma parte de la historia según se va desarrollando en diferentes eventos especiales y temporadas. No pierdas de vista las nuevas zonas, los enemigos, las recompensas, los tesoros y mucho más en futuras actualizaciones."
+      }
+    ],
+    "extraction": [
+      {
+        "title": "ACUMULA GLIFOS",
+        "text": "Completa encuentros por toda la Isla X para obtener glifos. Consigue 5 para descubrir la ubicación del arca."
+      },
+      {
+        "title": "ABRE EL ARCA",
+        "text": "Dispara a los glifos de la puerta del arca en el orden correcto para ver el artefacto que hay dentro y llevártelo."
+      },
+      {
+        "title": "EXTRAE EL ARTEFACTO",
+        "text": "Devuelve los artefactos a la Estela a través de los puntos de extracción que encontrarás por toda la isla."
+      }
+    ],
+    "map": {
+      "bubble": "¡RECONOCIMIENTO!",
+      "title": "BIENVENIDOS<br>A LA ISLA X",
+      "info": {
+        "title": "Un mundo misterioso te espera",
+        "text": "Esta isla mística azotada por las tormentas fue el hogar de una civilización humana desaparecida hace mucho tiempo. Está llena de templos, tesoros e infinitas posibilidades. ¡Explora sus secretos y empieza a saquear!"
+      },
+      "points": {
+        "garrharbor": {
+          "name": "PUERTO GARR",
+          "text": "La región costera donde los discípulos se reúnen para buscar restos de naufragios perdidos en las tormentas. También es el principal puesto pesquero de la isla (consejo pro: tápate la nariz). "
+        },
+        "cursed_tombs": {
+          "name": "TUMBAS MALDITAS",
+          "text": "Un lugar sagrado donde van a parar los discípulos caídos para que «vuelvan a la isla» en un ritual de resurrección y puedan seguir luchando."
+        },
+        "feeding_grounds": {
+          "name": "ZONA DE ALIMENTACIÓN",
+          "text": "El nexo central de Isla X, un lugar sacro para los discípulos y la antigua civilización. Los artefactos obtienen su potente magia tras ser forjados en este gran foso... ¿pero qué acecha allá al fondo?"
+        },
+        "river_village": {
+          "name": "RIVER VILLAGE",
+          "text": "Este antiguo bullicioso centro de comercio, ahora es una aldea destartalada que sirve como guarida a la depravación de los despreciables discípulos. "
+        },
+        "beacon": {
+          "name": "EL FARO",
+          "text": "Déjate guiar por la luz. Una imponente construcción creada por la civilización perdida. Se rumorea que está conectado con la tormenta sobrenatural que envuelve la Isla X."
+        },
+        "raiding_portal": {
+          "name": "PORTAL DE ASALTO",
+          "text": "Uno de los intentos de los discípulos de extender sus escamosas garras al mundo de los humanos. No está operativo... por el momento."
+        },
+        "training_halls": {
+          "name": "SALAS DE ENTRENAMIENTO",
+          "text": "Los discípulos luchan en esta arena para ascender de rango. Lo que antaño fuese un lugar de confraternidad, ha sido remodelado para adaptarse a los deseos y necesidades más primarios de estos reptiles. "
+        },
+        "mountain_temple": {
+          "name": "TEMPLO DE MONTAÑA",
+          "text": "Los sabios de la civilización perdida conectaban aquí con la energía de la isla a través de la práctica mística y la música. Ahora es el lugar donde poner a punto la magia. "
+        },
+        "marsh_hollow": {
+          "name": "HONDONADA DEL PANTANO",
+          "text": "Este humedal es el fondo de un templo esculpido en un acantilado. La antigua construcción se alza hacia el cielo y se hunde en el pantano lleno de artefactos."
+        }
+      }
+    },
+    "hero": {
+      "bubble": "CÓMPLICES",
+      "title": "LA BASE",
+      "info": {
+        "title": "Te damos la bienvenida a la Estela de la grieta, la base subacuática de GRIAL.",
+        "text": "Gigantesca y capaz de resistir las traicioneras aguas que rodean la Isla X, da cobijo a los mejores cazatesoros disponibles."
+      },
+      "list": {
+        "bodhi_hogan": {
+          "name": "BODHI HOGAN",
+          "text": "Un rengado ávido de emociones en la cima de su actividad como cazatesoros. Te cubrirá las espaldas... hasta que te conviertas en su rival."
+        },
+        "bjorn_bjornsson": {
+          "name": "DR. BJORN BJORNSSON",
+          "text": "Un científico renegado especializado en geología y vulcanología, una enciclopedia viviente de conocimiento especulativo sobre la Isla X."
+        },
+        "nellie_ruffin": {
+          "name": "NELLIE RUFFIN",
+          "text": "Años arrasando discípulos han convertido a esta renegada en la mayor experta en golpear a la horda donde más duele."
+        },
+        "agent_cynthia": {
+          "name": "AGENTE CYNTHIA",
+          "text": "Esta agente sirve a GRIAL como responsable a bordo de la Estela de la grieta y sabe cómo obtener resultados de su jocosa panda de bandidos."
+        },
+        "ge_0": {
+          "name": "GE-0",
+          "text": "El intendente robótico de GRIAL estacionado a bordo de la Estela de la grieta. Su principal función es acumular los artefactos saqueados de los renegados y pagarles a cambio."
+        }
+      }
+    }
+  },
+  "subscribe": {
+    "header": {
+      "title": "¡SUSCRÍBETE!",
+      "bubble": "¡CONSIGUE TU GORRO!"
+    },
+    "gift": {
+      "name": "GORRO DE ARQUEÓLOGO",
+      "tag": "REGALO GRATUITO"
+    },
+    "not_auth": {
+      "title": "CONSIGUE UN REGALO<br>EN 3 CLICS",
+      "text": "Inicia sesión o regístrate a la newsletter oficial de HAWKED ¡y consigue tu <b>gorro de arqueólogo GRATIS</b> en 3 clics!",
+      "button": "¡SUSCRÍBETE AHORA!"
+    },
+    "form": {
+      "title": "CONSIGUE UN REGALO<br>EN 2 CLICS",
+      "text": "Has iniciado sesión con una cuenta vinculada a esta dirección:",
+      "placeholder": "TU EMAIL",
+      "agreements": "Me gustaría recibir las últimas noticias, mensajes de marketing a mi elección y ofertas especiales de HAWKED por email.",
+      "button": "SUSCRÍBETE"
+    },
+    "send": {
+      "title": "CONSIGUE UN REGALO<br>EN 1 CLICS",
+      "text": "Email de confirmación enviado a: {email}. No olvides mirar en la bandeja de spam si no lo encuentras en la de entrada.",
+      "cant_resend": "Por cuestiones de seguridad, tienes que esperar 10 minutos antes de que te enviemos otro email de confirmación. Si el problema persiste, ponte en contacto con el equipo de Soporte.",
+      "button": "REENVIAR"
+    },
+    "success": {
+      "title": "¡TE HAS SUSCRITO<br>A HAWKED!",
+      "text": "¡Enhorabuena por suscribirte! Tu <b>gorro de arqueólogo gratuito</b> estará disponible en el juego dentro de poco. No pierdas de vista tu bandeja de entrada para ver las últimas noticias de HAWKED.",
+      "button": "IR A LA PÁGINA DE INICIO"
+    },
+    "features": {
+      "title": "SUSCRÍBETE A HAWKED PARA RECIBIR:",
+      "list": {
+        "news": {
+          "title": "TODAS LAS NOTICIAS",
+          "text": "Entérate de todo lo relacionado con HAWKED. Novedades, eventos y mucho más directamente en tu bandeja de entrada."
+        },
+        "offers": {
+          "title": "OFERTAS ESPECIALES",
+          "text": "¿Intentando cazar un chollo? Recibe notificaciones sobre rebajas y descuentos en el juego, además de ofertas especiales para suscriptores."
+        },
+        "benefits": {
+          "title": "BENEFICIOS EXCLUSIVOS",
+          "text": "Solo para tus ojos. Como suscriptor, puedes recibir solo los emails que te interesen y regalos para llevar tu juego al siguiente nivel."
+        }
+      }
+    }
+  },
+  "news": {
+    "header": {
+      "title": "NOTICIAS Y NOVEDADES",
+      "bubble": "NO TE PIERDAS NADA"
+    },
+    "more": "MÁS NOTICIAS",
+    "no_news": "No hay noticias en esta categoría. ¡Vuelve pronto para ver las novedades!",
+    "all": "TODO"
+  },
+  "press": {
+    "title": "KIT DE PRENSA",
+    "text": [
+      "¿Eres creador de contenidos o periodista y quieres cubrir HAWKED?",
+      "Descarga el kit de prensa para obtener materiales e información sobre el juego y escribe a <a href=\"mailto:press{'@'}my.games\">press{'@'}my.games</a> si tienes alguna pregunta."
+    ],
+    "bubble": "¡INFÓRMATE!",
+    "button": "DESCARGAR KIT DE PRENSA"
+  },
+  "faq": {
+    "title": "PREGUNTAS FRECUENTES",
+    "bubble": "TODO LO QUE NECESITAS SABER"
+  },
+  "media": {
+    "title": "MULTIMEDIA",
+    "bubble": "DE FOTO",
+    "categories": {
+      "all": "Todo",
+      "screenshot": "CAPTURAS DE PANTALLA",
+      "video": "VÍDEOS",
+      "art": "ARTE"
+    }
+  },
+  "account": {
+    "title": "MI CUENTA",
+    "bubble": "AQUÍ ESTÁN TUS DATOS",
+    "noauth": {
+      "title": "",
+      "text": "¡Bienvenido/a a tu cuenta! Aquí puedes iniciar sesión o registrarte para acceder a tus datos, ver tu ID de usuario, enlazar tu cuenta del juego a otras plataformas o cambiar tu contraseña."
+    },
+    "categories": {
+      "user": "INFORMACIÓN DE LA CUENTA"
+    },
+    "user": {
+      "nickname": "NOMBRE DE USUARIO:",
+      "user_id": "ID DE USUARIO:",
+      "change_password": "CAMBIAR CONTRASEÑA"
+    },
+    "twitch": {
+      "connect": {
+        "title": "HAS INICIADO SESIÓN COMO:",
+        "button": "VINCULAR CON TWITCH"
+      },
+      "stream": {
+        "title": "HAS INICIADO SESIÓN COMO:",
+        "twitch": "TU CUENTA DE TWITCH:",
+        "button": "VER EN TWITCH"
+      }
+    }
+  },
+  "twitchdrops": {
+    "title": "DROPS DE TWITCH",
+    "not_auth": {
+      "title": "CONECTA TU CUENTA DEL JUEGO:",
+      "button": "INICIA SESIÓN O REGÍSTRATE",
+      "note": "Escoge la plataforma en la que juegas a HAWKED e inicia sesión. Si no puedes iniciar sesión, comprueba que están activadas las ventanas emergentes."
+    },
+    "connect": {
+      "login": "HAS INICIADO SESIÓN COMO:",
+      "logout": "Cerrar sesión",
+      "button": "VINCULAR CON TWITCH",
+      "note": "Click the button to complete the linking process."
+    },
+    "stream": {
+      "login": "HAS INICIADO SESIÓN COMO:",
+      "twitch": "TU CUENTA DE TWITCH:",
+      "button": "VER EN TWITCH",
+      "note": "IMPORTANTE: Solo puede vincularse una cuenta de HAWKED con una cuenta de Twitch. Para cambiar la cuenta vinculada, entra en Twitch y desconecta HAWKED en «Otras conexiones» dentro de los ajustes de tu cuenta."
+    },
+    "errors": {
+      "text": "ALGO HA SALIDO MAL. PRUEBA A RECARGAR LA PÁGINA."
+    },
+    "features": [
+      {
+        "title": "1. VINCULA TUS CUENTAS",
+        "text": "Sigue los pasos de esta página para vincular tu cuenta de Twitch con la cuenta de HAWKED en la que quieres recibir los premios."
+      },
+      {
+        "title": "2. CONÉCTATE",
+        "text": "Ve streams de HAWKED en Twitch presentados por creadores de contenidos con drops."
+      },
+      {
+        "title": "3. RECLAMA RECOMPENSAS",
+        "text": "Acumula suficiente tiempo de visionado y canjea los <a href=\"https://www.twitch.tv/drops/inventory\">drops de tu inventario</a> y recíbelos en el juego. "
+      }
+    ],
+    "reward": {
+      "bubble": "MIRA Y GANA",
+      "title": "NUEVOS DROPS"
+    }
+  },
+  "top_up": {
+    "title": "MONEDAS GE-0",
+    "bubble": "¡RECARGA!",
+    "change_currency": "CAMBIAR DIVISA",
+    "intro": {
+      "subtitle": "DIVISA PREMIUM",
+      "description": "¿Le has echado el ojo a algo brillante? Compra dinero GE-0 para gastarlo en el pase de renegado actual, objetos estéticos como indumentarias y emotes, y más contenidos del juego."
+    },
+    "offer": {
+      "buy_button": "COMPRAR",
+      "best_deal": "¡MEJOR OFERTA!",
+      "one_time_offer": "OFERTA ÚNICA"
+    },
+    "balance": {
+      "label": "SALDO:"
+    },
+    "payment_info": {
+      "title": "COMRAR {offer_name} PARA LA CUENTA: ",
+      "refresh_button": "Actualizar tu estado de pago"
+    },
+    "error": {
+      "title": "ERROR",
+      "button": "RECARGAR PÁGINA"
+    },
+    "success": {
+      "title": "¡PAGO HECHO!",
+      "message": "Tus monedas GE-0 estarán disponibles en el juego en los próximos 15 minutos. ¡Pásalo bien, renegado!"
+    },
+    "packs": {
+      "bubble": "¡TESOROS!",
+      "title": "PAQUETES<br />DE SAQUEADOR",
+      "subtitle": "¡SAQUEA!",
+      "text": "Los paquetes de saqueador son lotes especiales llenos hasta los topes de contenidos del juego, como divisas, consumibles y objetos estéticos especiales.",
+      "button": "COMPRA AHORA"
+    },
+    "game_center": {
+      "balance": "SALDO: {balance} MONEDAS GE-0",
+      "balance_error": "SALDO: ERROR",
+      "selected": "RECOMENDADO"
+    },
+    "popups": {
+      "shard_error": {
+        "title": "NO SE PUEDEN HACER COMPRAS EN ESTE MOMENTO. INTÉNTALO MÁS TARDE."
+      },
+      "character_error": {
+        "title": "¡IMPORTANTE!",
+        "body": "Antes de hacer una compra, debes jugar a HAWKED al menos una vez."
+      }
+    },
+    "alarm_disclaimer": "Al realizar el pago, aceptas que el contenido digital esté a tu disposición de forma inmediata y consientes y reconoces que, en consecuencia, renuncias a tu derecho legal de desistimiento, excepto si el contenido digital es defectuoso.\n"
+  },
+  "purchase_pending": {
+    "default": {
+      "success": {
+        "title": "PAGO EN CURSO..."
+      },
+      "fail": {
+        "button": "PIDE AYUDA",
+        "link": "https://support.my.games/hw",
+        "title": "ALGO HA SALIDO MAL"
+      }
+    },
+    "steam": {
+      "success": {
+        "top-up": {
+          "button": "¡JUEGA AHORA!",
+          "title": "¡GRACIAS FOR TU COMPRA!",
+          "text": "Recibirás un email de Steam confirmando tu compra. ¡Tus nuevos objetos estarán disponibles en el juego muy pronto!"
+        }
+      },
+      "fail": {
+        "button": "PIDE AYUDA",
+        "link": "https://help.steampowered.com",
+        "title": "ALGO HA SALIDO MAL",
+        "text": "Tu pedido ha sido rechazado por un error de pago. Inténtalo de nuevo o ponte en contacto con el <b>equipo de soporte técnico de Steam</b> para que te ayude."
+      }
+    }
+  },
+  "preorder": {
+    "steam": {
+      "warning": "Estamos abriendo tu Cartera de Steam en una ventana emergente del navegador para continuar con tu compra. Si lees esto, entonces ya has realizado tu pago (¡Gracias!) o significa que esta ventana emergente no se abrió correctamente. Revisa la notificación en la barra de dirección de tu navegador o en el área de notificaciones y permite que nuestra página abra esta ventana emergente. De lo contrario, usa esto {link_html}.",
+      "link_text": "enlace"
+    }
+  },
+  "gamecenter": {
+    "about": {
+      "title": "ÚNETE A LA AVENTURA",
+      "text": "HAWKED es un shooter de extracción JcJcE online que llegará pronto a las consolas y PC de Windows. Forma un equipo para explorar la misteriosa isla, lucha contra monstruos, supera a los jugadores enemigos para robar tesoros ancestrales... y lárgate corriendo.",
+      "button": "VER EL TRÁILER"
+    }
+  },
+  "promocode": {
+    "title": "CANJEA TU CÓDIGO",
+    "bubble": "HAZTE CON COSAS NUEVAS",
+    "noauth": {
+      "title": " ",
+      "text": "No tienes que ir a la Isla X para encontrar tesoros. Inicia sesión para conseguir códigos promocionales y desbloquear contenidos especiales en HAWKED.",
+      "button": "INICIA SESIÓN O REGÍSTRATE"
+    },
+    "tabs": {
+      "activation": "ACTIVACIÓN",
+      "history": "HISTORIA"
+    },
+    "code_enter_placeholder": "INTRODUCE TU CÓDIGO",
+    "code_enter_button": "VER CONTENIDO(S)",
+    "code_view_title": "CONTENIDOS DEL CÓDIGO PROMOCIONAL:",
+    "code_view_button": "CANJEAR",
+    "code_success_title": "CÓDIGO PROMOCIONAL ACTIVADO",
+    "code_success_text": "Tus artículos te esperan en el juego.",
+    "code_success_button": "ACTIVA OTRO CÓDIGO",
+    "return": "VOLVER",
+    "history_null": "NINGÚN CÓDIGO CANJEADO",
+    "history_loading": "Cargando historial…",
+    "history_headings": [
+      "CÓDIGO PROMOCIONAL",
+      "FECHA/HORA",
+      "CONTENIDOS"
+    ],
+    "statuses": {
+      "10": {
+        "text": "En curso"
+      },
+      "20": {
+        "text": "En curso"
+      },
+      "30": {
+        "text": "Error de activación: ",
+        "extra": "Código de error: {error}"
+      },
+      "40": {
+        "text": "Objetos activados: "
+      }
+    }
+  },
+  "packs": {
+    "content": {
+      "popup": {
+        "title": "EL PAQUETE CONTIENE:"
+      },
+      "categories": {
+        "renegade": "Personalización de renegados",
+        "item": "Personalización de objetos",
+        "quarters": "Personalización de dependencias",
+        "premium": "Contenido premium"
+      },
+      "rewards": {
+        "trophy_hunter": {
+          "name": "Cazador de trofeos",
+          "description": "Pon a los enemigos en tu punto de mira con este aspecto para tu rifle de asalto.",
+          "type": "aspecto de arma"
+        },
+        "saurian_spoils": {
+          "name": "Botín saurio",
+          "description": "Un inquietante accesorio de temática discípula para tu renegado.",
+          "type": "mochila"
+        },
+        "predator": {
+          "name": "Depredador",
+          "description": "Acecha a tu presa con este aeropatín de cuero.",
+          "type": "aeropatín"
+        },
+        "rended_claws": {
+          "name": "Garras desgarradas",
+          "description": "Empuña estas garras místicas arrancadas a un feroz enemigo.",
+          "type": "surcador"
+        },
+        "grave_relic": {
+          "name": "Reliquia funeraria",
+          "description": "Dale un toque catastrófico a tu decoración.",
+          "type": "suvenir"
+        },
+        "scaly_stash": {
+          "name": "Alijo escamoso",
+          "description": "Mantén las cosas sanas, salvas y escamosas.",
+          "type": "taquilla"
+        },
+        "disciple_hunter": {
+          "name": "Cazador de discípulos",
+          "description": "Persigue a tu presa hasta los confines de la Isla X.",
+          "type": "indumentaria masculina"
+        },
+        "disciple_huntress": {
+          "name": "Cazadora de discípulos",
+          "description": "El azote de los discípulos.",
+          "type": "indumentaria femenina"
+        },
+        "shimmering_scales": {
+          "name": "Escamas brillantes",
+          "description": "Personaliza tus objetos y brilla mientras luchas.",
+          "type": "paleta de color"
+        },
+        "renegade_pass": {
+          "name": "Pase de renegado",
+          "description": "Desbloquea el acceso a recompensas del niveles premium.",
+          "type": ""
+        },
+        "cash": {
+          "name": "MONEDAS GE-0",
+          "description": "Una divisa premium para gastar en objetos estéticos y equipamiento del juego, entre otras cosas.",
+          "type": "",
+          "value": {
+            "amethyst": "120",
+            "diamond": "300"
+          }
+        },
+        "grail_subscription": {
+          "name": "SUSCRIPCIÓN A GRIAL+",
+          "description": "Una suscripción premium con bonificaciones de EXP y recompensas.",
+          "type": "",
+          "value": {
+            "amethyst": "30 DÍAS",
+            "diamond": "90 DÍAS"
+          }
+        }
+      }
+    },
+    "cards": {
+      "unavailable": "NO DISPONIBLE",
+      "best_deal": "¡MEJOR!",
+      "acquired": "COMPRADO",
+      "info": "VER CONTENIDOS",
+      "steam_buy_button": "COMPRAR"
+    },
+    "top_up_banner": {
+      "bubble": "¡RECARGA!",
+      "title": "MONEDAS GE-0",
+      "subtitle": "DIVISA PREMIUM",
+      "text": "Recarga tus arcas con monedas GE-0, una divisa del juego que podrás gastar en el pase de batalla, objetos estéticos como indumentarias, modelos de armas, emotes y más.",
+      "button": "COMPRA AHORA"
+    },
+    "intro": {
+      "bubble": "¡TESOROS!",
+      "title": "PAQUETES DE SAQUEADOR",
+      "subtitle": "¡SAQUEA!",
+      "text": "Los paquetes de saqueador son lotes especiales llenos hasta los topes de contenidos del juego, como divisas, consumibles y objetos estéticos especiales."
+    },
+    "payment": {
+      "header": "COMPRA UN PAQUETE",
+      "success_message": "Tus nuevos objetos estarán disponibles en el juego en los próximos 15 minutos. ¡Disfruta de tu paquete de saqueador!"
+    }
+  },
+  "rally": {
+    "intro": {
+      "bubble": "¡ÚNETE A GRIAL HOY!",
+      "title": "RECLUTAMIENTO<br>DE RENEGADOS",
+      "subtitle": "RECLUTA PARA GANAR RECOMPENSAS",
+      "text": "GRIAL necesita más gente en el terreno... y tu ayuda. Corre la voz, recluta renegados y ayuda a GRIAL a alcanzar sus objetivos para ganar recompensas exclusivas en el juego.",
+      "button": "¡RECLUTA AHORA!"
+    },
+    "timer": {
+      "bubble": "EL RECLUTAMIENTO ACABA EN:"
+    },
+    "balance": "TUS BOLETOS PARA EL SORTEO:",
+    "rewards": {
+      "header": {
+        "enlistment_rewards": "RECOMPENSAS DE RECLUTAMIENTO",
+        "goals": "OBJETIVOS DE RECLUTAMIENTO",
+        "raffle_rewards": "RECOMPENSAS DEL SORTEO"
+      },
+      "items": {
+        "subscription": {
+          "name": "SUSCRIPCIÓN DE 7 DÍAS A GRIAL+",
+          "text": "GRIAL+ es una suscripción que te permite mejorar tu botín con un potenciador del 20 % de EXP, privilegios diarios, una ranura de caja de seguridad adicional, una misión semanal y dos misiones diarias mientras está activa."
+        },
+        "token_souvenir": {
+          "name": "SOUVENIR DE FICHA DE GRIAL",
+          "text": "Un símbolo de la membresía de la organización de buscadores de tesoros más célebre del mundo."
+        },
+        "dryad_color_scheme": {
+          "name": "PALETA DE COLOR «DRÍADE»",
+          "text": "Fúndete con el bosque. Usa esta paleta de color para personalizar tu estilo de renegado."
+        },
+        "forest_weapon_pattern": {
+          "name": "MODELO DE ARMA «GUARDABOSQUES»",
+          "text": "Defiende la naturaleza con este modelo de arma para engalanar tu selección."
+        },
+        "chloris_bloom_traverser": {
+          "name": "SURCADOR «FLOR DE CHLORIS»",
+          "text": "La aventura está floreciendo. Empuña este surcador y hazte un nombre en la Isla X."
+        },
+        "ruby_pack": {
+          "name": "PACK DE SAQUEADOR DE RUBÍ (50 PREMIOS)",
+          "text": "Descubre los tesoros ocultos de la Isla X con el pack de saqueador de rubí. Incluye un nuevo aspecto de arma, una mochila, un aeropatín y un surcador."
+        },
+        "amethyst_pack": {
+          "name": "PACK DE SAQUEADOR DE AMATISTA (30 PREMIOS)",
+          "text": "Deja que la leyenda de los cazadiscípulos crezca con el pack de saqueador de amatista. Incluye imponentes indumentarias de renegado, equipamientos, divisas y mucho más."
+        },
+        "diamond_pack": {
+          "name": "PACK DE SAQUEADOR DE DIAMANTE (20 PREMIOS)",
+          "text": "Descubre los tesoros más secretos y arcanos de la Isla X con el pack de saqueador de diamante. Incluye un pase de renegado, una paleta de color exclusiva, indumentarias, equipamiento, divisas y mucho más."
+        },
+        "ge_0_cash": {
+          "name": "SUMINISTRO VITALICIO DE DINERO GE-0 (1 PREMIO)",
+          "text": "El dinero GE-0 es una divisa del juego que puedes usar en HAWKED para comprar el pase de renegado actual y objetos estéticos como indumentarias, modelos de armas, emotes y más. Si necesitas más información, echa un vistazo a las preguntas frecuentes."
+        }
+      },
+      "pre_register": "ÚNETE AL RECLUTAMIENTO",
+      "renegades": "{count} RENEGADOS"
+    },
+    "info": {
+      "title": "¡Quieremos que te unas a los renegados!",
+      "text": [
+        "La cosa se está poniendo emocionante en la Isla X, y GRIAL necesita gente para que le ayude a desentrañar los misterios de la isla. Únete al reclutamiento y ayuda a conseguir renegados, lucha por las recompensas colectivas y por la oportunidad de ganar premios en la rifa de renegados.",
+        "Participar es muy fácil. Abre una cuenta en HAWKED para unirte al Reclutamiento de renegados y empezarás a recibir recompensas del juego cuando se hayan registrado un número concreto de jugadores. Sigue las cuentas de las redes sociales de HAWKED para ganar boletos para el sorteo y tener la oportunidad de llevarte packs de saqueador y un suministro vitalicio de dinero GE-0. Hay 101 premios en juego, participa para ganar.",
+        "¿A qué esperas? ¡A reclutar se ha dicho!"
+      ],
+      "button": "¡RECLUTA AHORA!"
+    },
+    "sharing": {
+      "title": "¡BUENA SUERTE!",
+      "text": "¡Prepárate para reclutar! Sigue HAWKED en las redes sociales para conseguir más boletos para el sorteo."
+    },
+    "sharing_all": {
+      "title": "¡TACHÁN!",
+      "text": "Has recibido todos los bonus del reclutamiento. ¡Sigue así!"
+    },
+    "action_end": {
+      "title": "RENEGADOS RECLUTADOS",
+      "text": "¡Gracias por unirte al Reclutamiento de renegados! Eso es todo por ahora, pero sigue a HAWKED en redes sociales para enterarte de las últimas noticias, novedades y eventos especiales."
+    },
+    "subscribe": {
+      "gift": {
+        "name": "GORRO DE ARQUEÓLOGO",
+        "tag": "REGALO GRATUITO"
+      },
+      "form": {
+        "title": "CONSIGUE UN REGALO<br>EN 2 CLICS",
+        "text": "Has iniciado sesión con una cuenta vinculada a esta dirección:",
+        "placeholder": "TU EMAIL",
+        "agreements": "Me gustaría recibir las últimas noticias, mensajes de marketing personalizados y ofertas especiales de HAWKED por email. Al suscribirme, doy permiso a MY.GAMES B.V. para utilizar mi email. Si quieres saber más acerca de cómo usamos tu información, consulta la <a href=\"https://documentation.my.games/terms/mygames_privacy\">política de privacidad de MY.GAMES B.V.</a>",
+        "button": "SUSCRÍBETE"
+      },
+      "send": {
+        "title": "CONSIGUE UN REGALO<br>EN 1 CLICS",
+        "text": "¡Confirmación enviada! Confirma tu suscripción a HAWKED haciendo clic en el enlace del email de confirmación que te hemos enviado.",
+        "cant_resend": "Por cuestiones de seguridad, tienes que esperar 10 minutos antes de que te enviemos otro email de confirmación. Si el problema persiste, ponte en contacto con el equipo de Soporte."
+      },
+      "resend": {
+        "title": "¡CONFIRMACIÓN ENVIADA!",
+        "text": "Puedes volver a enviar el email de confirmación en 10 minutos. ¡Mira en la bandeja de spam!",
+        "button": "REENVIAR"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {year} MY.GAMES B.V. Todos los derechos reservados. Todas las marcas registradas son propiedad de sus respectivos dueños.",
+    "address": "MY.GAMES B.V., DE ENTREE 256, 1101EE, AMSTERDAM, THE NETHERLANDS",
+    "docs": [
+      {
+        "link": "https://documentation.my.games/terms/mygames_tou",
+        "text": "CONDICIONES DE USO"
+      },
+      {
+        "link": "https://documentation.my.games/terms/mygames_privacy",
+        "text": "POLÍTICA DE PRIVACIDAD"
+      },
+      {
+        "link": "https://documentation.my.games/terms/imprint",
+        "text": "INFORMACIÓN CORPORATIVA"
+      },
+      {
+        "link": "https://documentation.my.games/terms/mygames_eula",
+        "text": "EULA"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Documentos legales",
+    "description": "Asegúrese de verificar los documentos legales del Juego. Si desea seguir utilizando el Servicio, necesitará aceptar las condiciones.",
+    "button": "Continuar",
+    "terms_agreement": "Al hacer clic en el botón ‘continuar’, acepta los términos y condiciones generales. {links}",
+    "links_date": "Los siguientes documentos han sido aceptados por ti el ",
+    "links": [
+      {
+        "url": "https://documentation.my.games/terms/mygames_tou",
+        "es": "CONDICIONES DE USO"
+      },
+      {
+        "url": "https://documentation.my.games/terms/mygames_privacy",
+        "es": "POLÍTICA DE PRIVACIDAD"
+      },
+      {
+        "url": "https://documentation.my.games/terms/imprint",
+        "es": "INFORMACIÓN CORPORATIVA"
+      },
+      {
+        "url": "https://documentation.my.games/terms/mygames_eula",
+        "es": "EULA"
+      }
+    ]
+  },
+  "mygames": {
+    "login": "Iniciar sesión",
+    "title": "Termina de crear tu cuenta de HAWKED",
+    "email_agreement": "Me gustaría recibir las últimas noticias, mensajes de marketing personalizados y ofertas especiales de HAWKED por email. Al suscribirme, doy permiso a MY.GAMES B.V. para utilizar mi email. Si quieres saber más acerca de cómo usamos tu información, consulta la <a href=\"https://documentation.my.games/privacy/\">política de privacidad de MY.GAMES B.V.</a>",
+    "terms_agreement": "Al pulsar \"Continuar\", acepto los términos y condiciones {links}",
+    "button": "Continuar",
+    "error": {
+      "button": "Volver al inicio de sesión",
+      "text": "Algo ha salido mal. Prueba a recargar la página."
+    }
+  }
+}

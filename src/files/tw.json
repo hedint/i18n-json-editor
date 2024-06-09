@@ -1,0 +1,916 @@
+{
+  "meta": {
+    "title": "《HAWKED》可在PC、PS5、PS4、Xbox Series X|S免費遊玩！",
+    "description": "《HAWKED》是一款免費的線上奪寶射擊遊戲，可在Windows PC、PS4、PS5和Xbox Series X|S上遊玩。歡迎加入寶藏獵人的行列，在充滿魅力的神秘世界中殺出一條血路，並搶奪失落的古代聖物。",
+    "sharing_title": "《HAWKED》可在PC、PS5、PS4、Xbox Series X|S免費遊玩！",
+    "sharing_description": "《HAWKED》是一款免費的線上奪寶射擊遊戲，可在Windows PC、PS4、PS5和Xbox Series X|S上遊玩。歡迎加入寶藏獵人的行列，在充滿魅力的神秘世界中殺出一條血路，並搶奪失落的古代聖物。"
+  },
+  "common": {
+    "login": "登入",
+    "logout": "登出",
+    "timer": {
+      "days": "天",
+      "hours": "時",
+      "minutes": "分",
+      "seconds": "秒"
+    }
+  },
+  "noauth": {
+    "title": "存取被拒絕",
+    "text": "註冊或登入",
+    "button": "登入或註冊"
+  },
+  "navigation": {
+    "button": "立刻開始遊戲",
+    "button_play": "立刻開始遊戲"
+  },
+  "errors": {
+    "error": "錯誤",
+    "error_code": "錯誤代碼：",
+    "button": "前往主頁",
+    "bubble": "OOOOPSSSS!!!!!!",
+    "default": {
+      "text": "目前時段無法執行此操作。請稍後再試。"
+    },
+    "400": {
+      "text": "錯誤請求"
+    },
+    "401": {
+      "text": "未經授權的行動"
+    },
+    "403": {
+      "text": "讀取被拒絕"
+    },
+    "404": {
+      "text": "該頁面不存在。請返回主頁尋找您想要的內容！"
+    },
+    "405": {
+      "text": "無效的方法"
+    },
+    "408": {
+      "text": "請求超時"
+    },
+    "429": {
+      "text": "請求次數超過限制。"
+    },
+    "500": {
+      "text": "伺服器意外出錯。我們的團隊正在努力解決該問題——請留意我們社交媒體頻道上的最新消息！"
+    },
+    "503": {
+      "text": "該頁面暫時無法讀取。我們的團隊正在努力解決該問題——請留意我們社交媒體頻道上的最新消息！"
+    },
+    "504": {
+      "text": "我們的團隊正在努力修正該問題——請留意我們社交媒體頻道上的最新消息！"
+    },
+    "1400": {
+      "text": "您需要先登入或註冊才能繼續。"
+    },
+    "2105": {
+      "text": "登入失敗。請嘗試另一種授權方式。"
+    },
+    "5000": {
+      "text": "該優惠碼無效。"
+    },
+    "5001": {
+      "text": "該優惠碼無效。請重新輸入或換一條優惠碼試試。"
+    },
+    "5002": {
+      "text": "該優惠碼尚未生效。請稍後再試。"
+    },
+    "5003": {
+      "text": "該優惠碼已過期。"
+    },
+    "5004": {
+      "text": "您已經使用過一條該類型的優惠碼。"
+    },
+    "5005": {
+      "text": "您的啟動嘗試次數已用盡。"
+    },
+    "5007": {
+      "text": "您所在的地區不支援兌換該優惠碼。"
+    },
+    "5008": {
+      "text": "您所在的地區不支援兌換該優惠碼。"
+    },
+    "5200": {
+      "text": "您已經使用過一條該類型的優惠碼。"
+    },
+    "5300": {
+      "text": "您輸入了無效的字元、符號或數字。"
+    },
+    "5301": {
+      "text": "該內容無法讀取。"
+    },
+    "5307": {
+      "text": "您輸入的優惠碼不正確。"
+    },
+    "5400": {
+      "text": "啟動優惠碼失敗。請稍後再試。"
+    },
+    "7104": {
+      "text": "電子郵件地址不正確。"
+    },
+    "7106": {
+      "text": "錯誤！您的帳號已與{email}關聯並訂閱了行銷郵件。"
+    },
+    "7107": {
+      "text": "錯誤！您的帳號已與{email}關聯並訂閱了行銷郵件。"
+    },
+    "7109": {
+      "text": "發送出現錯誤 - 驗證郵件發送失敗。"
+    },
+    "7110": {
+      "text": "電子郵件地址不正確。"
+    },
+    "7111": {
+      "text": "發送超過限制 - 驗證郵件發送失敗。請稍後再試。"
+    },
+    "with_code": {
+      "text": "目前無法執行該操作。錯誤代碼："
+    }
+  },
+  "home": {
+    "intro": {
+      "title": "궁극의 보물 사냥에 합류하세요",
+      "button": "立刻開始遊戲！",
+      "button_play": "立刻開始遊戲！"
+    },
+    "rally": {
+      "bubble": "限時活動!",
+      "title": "節日大盜",
+      "subtitle": "拯救節日！",
+      "text": "正是裝扮裂隙覺醒號的好時機。完成新的節日主題任務，找出節日盜賊，贏取獨特節日戰利品。",
+      "button": "閱讀更多"
+    },
+    "raider": {
+      "bubble": "寶藏！",
+      "title": "掠奪者禮包",
+      "subtitle": "一網打盡！",
+      "text": "解鎖這款特殊組合包，即可獲得遊戲貨幣、消耗品和獨家造型物品等豐富遊戲內道具。",
+      "button": "立刻購買"
+    },
+    "top-up": {
+      "bubble": "大撈一筆！",
+      "title": "GE-0現金",
+      "subtitle": "高級貨幣",
+      "text": "你也想穿金戴銀嗎？那就購入GE-0現金，兌換叛逆者通行證、造型物品等眾多遊戲內物品吧！",
+      "button": "立刻購買！"
+    },
+    "twitch-drops": {
+      "bubble": "觀看並賺取！",
+      "title": "TWITCH掉寶",
+      "subtitle": "觀看直播，加入奪寶",
+      "text": "在Twitch上觀看指定的《HAWKED》直播，就能獲得特殊遊戲內容！現在就將帳號連結到Twitch，做好收看的準備吧。",
+      "button": "開始！"
+    },
+    "trailer": {
+      "button": "欣賞預告片"
+    },
+    "about": {
+      "main": {
+        "bubble": "成為叛逆者！",
+        "title": "加入尋寶<br>大戰！",
+        "subtitle": "歡迎來到《Hawked》的世界",
+        "text": "《HAWKED》是一款免費的線上奪寶射擊遊戲，可在Windows PC、PlayStation 4、PlayStation 5和Xbox Series X|S上遊玩。歡迎加入寶藏獵人的行列，在充滿魅力的神秘世界中殺出一條血路，並搶奪失落的古代聖物。",
+        "button": "瞭解更多"
+      },
+      "list": [
+        {
+          "title": "智勇雙全，克敵制勝！",
+          "text": "搜刮槍械和彈藥，迎戰遊蕩在X小島的門徒獸，並與其他叛逆者鬥智鬥勇！"
+        },
+        {
+          "title": "探索X小島！",
+          "text": "踏上這座風雲莫測的神秘小島，在蒼翠的平原、茂密的叢林和失落的古代遺跡中展開冒險！"
+        },
+        {
+          "title": "掠奪寶藏！",
+          "text": "解開謎題並智取敵方玩家偷走神器。成功轉移戰利品即可將之升級，解鎖全新能力！"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常見問題解答"
+    },
+    "news": {
+      "title": "最近要聞",
+      "bubble": "最新消息早知道！",
+      "more": "更多新聞"
+    },
+    "media": {
+      "title": "媒體",
+      "bubble": "絕美場景！",
+      "more": "查看更多"
+    },
+    "social": {
+      "title": [
+        "直接與",
+        "《HAWKED》交流"
+      ],
+      "bubble": "交朋友！",
+      "networks": [
+        {
+          "type": "facebook",
+          "link": "https://www.facebook.com/HAWKEDGame/"
+        },
+        {
+          "type": "instagram",
+          "link": "https://www.instagram.com/playhawked/"
+        },
+        {
+          "type": "youtube",
+          "link": "https://www.youtube.com/{'@'}playHAWKED"
+        },
+        {
+          "type": "twitch",
+          "link": "https://www.twitch.tv/PlayHawked"
+        },
+        {
+          "type": "discord",
+          "link": "https://discord.gg/hawked"
+        },
+        {
+          "type": "tiktok",
+          "link": "https://www.tiktok.com/{'@'}playhawked"
+        },
+        {
+          "type": "reddit",
+          "link": "https://www.reddit.com/r/Hawked/"
+        },
+        {
+          "type": "twitter",
+          "link": "https://twitter.com/PlayHAWKED"
+        }
+      ],
+      "subscribe": {
+        "title": "官方電子報",
+        "text": "允許更新、活動、特別優惠等資訊直接傳送到收件匣，取得優勢以擊敗敵方叛逆者。現在訂閱即可獲得<b>免費的頂尖考古學家帽</b>！",
+        "button": "立刻訂閱"
+      }
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "終極尋寶之旅",
+      "text": "在一座神秘的小島上，名為「門徒獸」的爬行類怪物正在尋找擁有驚人力量的聖物。歡迎加入叛逆者的行列，從牠們手中偷取神器、撤回轉移點，放進自己的口袋裡！"
+    },
+    "features": [
+      {
+        "title": "狩獵與收集！",
+        "text": "搜刮武器和彈藥、升級裝備配置、解鎖特殊能力與技能，並運用神秘的神器智取門徒獸和敵對玩家。"
+      },
+      {
+        "title": "適應與克服！",
+        "text": "動動腦筋，別一味蠻幹！解開謎題、躲避致命陷阱、找到聖符解鎖寶庫，並磨礪尋寶技術奪得最佳戰利品。"
+      },
+      {
+        "title": "探索與冒險！",
+        "text": "故事劇情將隨特殊活動與賽季徐徐展開。請留意全新的地點、敵人、獎勵、寶藏，以及其他定期更新的精彩內容。"
+      }
+    ],
+    "extraction": [
+      {
+        "title": "收集聖符",
+        "text": "完成X小島各地的遭遇事件來獲取聖符。收集5個即可揭示寶庫的位置！"
+      },
+      {
+        "title": "打開寶庫",
+        "text": "按正確順序射擊寶庫門上的聖符來揭示和拿取其中的神器。"
+      },
+      {
+        "title": "轉移神器",
+        "text": "透過能在X小島各處找到的轉移點將你的神器轉移回裂隙覺醒號上。"
+      }
+    ],
+    "map": {
+      "bubble": "偵察！",
+      "title": "歡迎來到<br>X小島",
+      "info": {
+        "title": "一個神秘的世界在等著你。",
+        "text": "這座被風暴隔絕的神秘小島曾是一個失落已久的人類文明的故鄉。島上滿是神廟、寶藏和無盡的機遇，所以快去探索它的秘密，掠奪它的戰利品吧！"
+      },
+      "points": {
+        "garrharbor": {
+          "name": "加爾港",
+          "text": "一片沿海地區，門徒獸會聚集在這裡搜刮風暴中失事的沉船。此外這裡也是島上主要的捕魚哨站。（友情提醒：捏住你的鼻子）。 "
+        },
+        "cursed_tombs": {
+          "name": "受咒陵墓",
+          "text": "一個神聖的地點，倒下的門徒獸會在這裡藉由復活儀式重返島上，從而再度戰鬥。"
+        },
+        "feeding_grounds": {
+          "name": "餵食之地",
+          "text": "X小島的中央樞紐，在門徒獸和古代文明眼中都是聖地。神器在其巨大的深坑中鍛造出來後，獲得強大的魔力……但底下到底潛藏著什麼呢？"
+        },
+        "river_village": {
+          "name": "江邊村落",
+          "text": "這個破敗不堪的村莊曾是前任島民的繁華貿易中心，而現在則淪為了那些卑鄙墮落的門徒獸的巢穴。 "
+        },
+        "beacon": {
+          "name": "燈塔",
+          "text": "讓燈光指引你吧。這座宏偉建築由失落文明打造而成，傳聞說它和環線X小島的超自然風暴有著某種聯繫。"
+        },
+        "raiding_portal": {
+          "name": "奇襲傳送門",
+          "text": "門徒獸為了把它們帶鱗的魔爪伸向更外面的人類世界而做出的嘗試之一。它暫時……還無法正常工作。"
+        },
+        "training_halls": {
+          "name": "訓練廳",
+          "text": "門徒獸會在這個競技場中戰鬥，提升自己的爬行動物等級。這裡曾是和氣融融的聚會場所，但現在已重新改造，只為滿足門徒獸的原始欲望和需求。 "
+        },
+        "mountain_temple": {
+          "name": "山中神廟",
+          "text": "失落文明的賢者們曾在這裡透過神秘的修行和音樂來和島上的能量交流。而現在，這裡成了門徒獸中的魔法使用者磨練技藝的地方。 "
+        },
+        "marsh_hollow": {
+          "name": "中空沼澤",
+          "text": "這些濕地組成的背景中矗立著一座鑿刻在巨大崖壁上的神廟。這座古代建築向上撕裂了天空，向下則沒入了滿是神器的沼澤之中。"
+        }
+      }
+    },
+    "hero": {
+      "bubble": "犯罪搭檔！",
+      "title": "裂隙覺醒號",
+      "info": {
+        "title": "歡迎來到聖杯組織的水底總部。",
+        "text": "這艘巨型潛艇能夠抵禦來自X小島周圍危險水域的各種威脅，是聖杯所雇的最優秀寶藏獵人的家。"
+      },
+      "list": {
+        "bodhi_hogan": {
+          "name": "博迪·霍根",
+          "text": "一名追求刺激的叛逆者，頂尖的寶藏獵人。他會全力支持你，直到你成為他的競爭對手。"
+        },
+        "bjorn_bjornsson": {
+          "name": "比約恩·比約森博士",
+          "text": "一名專精地質學和火山學的叛逆者科學家，也是一本行走的X小島推測性知識百科全書。"
+        },
+        "nellie_ruffin": {
+          "name": "內莉·魯芬",
+          "text": "多年來在門徒獸間橫行的經驗讓這名叛逆者成為了能夠直擊敵人要害的頂尖專家。"
+        },
+        "agent_cynthia": {
+          "name": "特工辛西婭",
+          "text": "作為聖杯組織安排在裂隙覺醒號上的叛逆者顧問，這名特工深諳該如何驅使手下這幫強盜獲得想要的結果。"
+        },
+        "ge_0": {
+          "name": "GE-0",
+          "text": "隸屬於聖杯組織、駐紮在裂隙覺醒號上的機器人軍需官。它的主要功能是從叛逆者那裡收集掠奪到的神器並提供回報物資。"
+        }
+      }
+    }
+  },
+  "subscribe": {
+    "header": {
+      "title": "訂閱！",
+      "bubble": "領取你的帽子！"
+    },
+    "gift": {
+      "name": "頂尖考古學家帽",
+      "tag": "免費禮物"
+    },
+    "not_auth": {
+      "title": "只需點擊3下即可獲得一件免費禮物！",
+      "text": "登入或註冊以訂閱《HAWKED》官方電子報，只需點擊3下即可領取你的<b>免費頂尖考古學家帽</b>！",
+      "button": "立刻訂閱"
+    },
+    "form": {
+      "title": "只需點擊2下即可獲得一件免費禮物！",
+      "text": "您已登入一個與以下電子郵件地址關聯的帳號：",
+      "placeholder": "您的電子郵件地址",
+      "agreements": "我想透過電子郵件接收有關《HAWKED》最近要聞、客製化行銷資訊和特別優惠的消息。",
+      "button": "訂閱"
+    },
+    "send": {
+      "title": "只需點擊1下即可獲得一件免費禮物！",
+      "text": "確認郵件已發送至：{email}。請透過點擊確認郵件中的連結確認您對《HAWKED》電子報的訂閱。",
+      "cant_resend": "出於安全考慮，您需要等待10分鐘才能再次發送確認郵件。若該問題持續存在，請聯繫我們的客服團隊。",
+      "button": "重新發送"
+    },
+    "success": {
+      "title": "您已訂閱《HAWKED》電子報！",
+      "text": "恭喜成為一名訂閱者！您將很快在遊戲中收到您的<b>免費頂尖考古學家帽</b>。記得留意您的收件匣來隨時瞭解《HAWKED》的最新資訊！",
+      "button": "前往主頁"
+    },
+    "features": {
+      "title": "訂閱《HAWKED》電子報以獲取：",
+      "list": {
+        "news": {
+          "title": "所有最近要聞",
+          "text": "時刻瞭解《HAWKED》更新、活動等內容的最新情報，它們將直接發送至你的收件匣。"
+        },
+        "offers": {
+          "title": "特別優惠",
+          "text": "在尋找便宜好價嗎？接收有關遊戲內新促銷活動、折扣以及訂閱者獨享交易的通知。"
+        },
+        "benefits": {
+          "title": "獨家福利",
+          "text": "只有你能看到。作為一名訂閱者，你將收到為你量身定制的資訊，更有免費的禮物可以幫你在遊戲中更上一層樓。"
+        }
+      }
+    }
+  },
+  "news": {
+    "header": {
+      "title": "要聞與更新",
+      "bubble": "最新消息早知道！"
+    },
+    "more": "更多新聞",
+    "no_news": "目前該分類下暫無新聞。晚點再回來看看有無更新吧！",
+    "all": "全部"
+  },
+  "press": {
+    "title": "媒體資料包",
+    "text": [
+      "你是內容創作者，又或是有興趣報導《HAWKED》的記者嗎？",
+      "下載媒體資料包即可獲得素材和遊戲資訊，你也可以透過<a href=\"mailto:press{'@'}my.games\">press{'@'}my.games</a>聯絡我們瞭解更多詳情。"
+    ],
+    "bubble": "獲取獨家新聞！",
+    "button": "下載媒體資料包"
+  },
+  "faq": {
+    "title": "常見問題解答",
+    "bubble": "你所需要知道的一切！"
+  },
+  "media": {
+    "title": "媒體",
+    "bubble": "絕美場景！",
+    "categories": {
+      "all": "全部",
+      "screenshot": "截圖",
+      "video": "影片",
+      "art": "概念美術"
+    }
+  },
+  "account": {
+    "title": "我的帳號",
+    "bubble": "這裡是你的資訊！",
+    "noauth": {
+      "title": "",
+      "text": "歡迎來到你的帳號頁面！登入或註冊後，即可存取個人詳細資訊、查看玩家ID、將遊戲帳號連結至其他平臺或重設密碼。"
+    },
+    "categories": {
+      "user": "帳號資訊"
+    },
+    "user": {
+      "nickname": "用戶名：",
+      "user_id": "用戶ID： ",
+      "change_password": "重設密碼"
+    },
+    "twitch": {
+      "connect": {
+        "title": "你的登入身份為：",
+        "button": "關聯Twitch"
+      },
+      "stream": {
+        "title": "你的登入身份為：",
+        "twitch": "你的Twitch帳號：",
+        "button": "在Twitch上觀看"
+      }
+    }
+  },
+  "twitchdrops": {
+    "title": "TWITCH掉寶",
+    "not_auth": {
+      "title": "連接你的遊戲帳號：",
+      "button": "登入或註冊",
+      "note": "選擇並透過你玩《HAWKED》所用平臺的帳號進行登入。若無法登入，請確保你已啟用允許彈窗。"
+    },
+    "connect": {
+      "login": "你的登入身份為：",
+      "logout": "註銷",
+      "button": "關聯Twitch",
+      "note": "點擊按鈕完成與Twitch的關聯。"
+    },
+    "stream": {
+      "login": "你的登入身份為：",
+      "twitch": "你的Twitch帳號：",
+      "button": "在Twitch上觀看",
+      "note": "重要：一個《HAWKED》帳號只能與一個Twitch帳號關聯。如需更改你的關聯帳號，請前往Twitch並在帳號設定的「其他連接」欄目下斷開與《HAWKED》的連接。"
+    },
+    "errors": {
+      "text": "有錯誤發生，請嘗試重新載入頁面。"
+    },
+    "features": [
+      {
+        "title": "1.關聯你的帳號",
+        "text": "跟隨該頁面提示的步驟操作，將你想用來領取Twitch掉寶的《HAWKED》帳號與Twitch關聯。"
+      },
+      {
+        "title": "2.觀看直播",
+        "text": "在Twitch上觀看已啟用掉寶的內容創建者的直播。"
+      },
+      {
+        "title": "3.領取獎勵！",
+        "text": "累積足夠的觀看時長，從你的<a href=\"https://www.twitch.tv/drops/inventory\">Twitch掉寶背包</a>中領取物品，然後在遊戲中接收它們！ "
+      }
+    ],
+    "reward": {
+      "bubble": "觀看並賺取！",
+      "title": "新掉寶"
+    }
+  },
+  "top_up": {
+    "title": "GE-0現金",
+    "bubble": "裝滿！",
+    "change_currency": "兌換貨幣",
+    "intro": {
+      "subtitle": "高級貨幣",
+      "description": "GE-0現金是一種遊戲內貨幣，你可以用它來購買目前開放的叛逆者通行證，以及服裝、表情等造型物品！"
+    },
+    "offer": {
+      "buy_button": "購買",
+      "best_deal": "超值！",
+      "one_time_offer": "一次性優惠"
+    },
+    "balance": {
+      "label": "餘額："
+    },
+    "payment_info": {
+      "title": "以折扣價購買{offer_name}： ",
+      "refresh_button": "刷新您的支付狀態"
+    },
+    "error": {
+      "title": "有錯誤發生",
+      "button": "刷新頁面"
+    },
+    "success": {
+      "title": "付款成功！",
+      "message": "你將於15分鐘內在遊戲中接收到你的GE-0現金。祝玩得開心，叛逆者！"
+    },
+    "packs": {
+      "bubble": "寶藏！",
+      "title": "掠奪者禮包",
+      "subtitle": "一網打盡！",
+      "text": "掠奪者禮包是款特殊組合包，內含貨幣、消耗品和獨家造型物品等豐富遊戲內道具。",
+      "button": "立刻購買！"
+    },
+    "game_center": {
+      "balance": "餘額：{balance} GE-0現金",
+      "balance_error": "餘額：錯誤",
+      "selected": "推薦"
+    },
+    "popups": {
+      "shard_error": {
+        "title": "目前無法進行購買。請稍後再試。"
+      },
+      "character_error": {
+        "title": "重要提示！",
+        "body": "進行購買前需要至少玩過HAWKED一次。"
+      }
+    },
+    "alarm_disclaimer": "確認結帳即表示您同意立即取得此數位內容，並且同意並承認您放棄自動法定撤銷權，除非此數位內容存在問題。"
+  },
+  "purchase_pending": {
+    "default": {
+      "success": {
+        "title": "正在付款……"
+      },
+      "fail": {
+        "button": "聯繫客服",
+        "link": "https://support.my.games/hw",
+        "title": "有錯誤發生"
+      }
+    },
+    "steam": {
+      "success": {
+        "top-up": {
+          "button": "開始遊戲",
+          "title": "感謝您的購買！",
+          "text": "你將收到一封Steam發送的確認購買郵件。你很快就能在遊戲中接收到你的新物品！"
+        }
+      },
+      "fail": {
+        "button": "聯繫客服",
+        "link": "https://help.steampowered.com",
+        "title": "有錯誤發生",
+        "text": "由於付款時出現錯誤，你的訂單未能成功完成。請重試或聯繫<b>Steam客服</b>尋求幫助。"
+      }
+    }
+  },
+  "preorder": {
+    "steam": {
+      "warning": "為了繼續您的購買，我們將在一個瀏覽器彈窗中打開您的Steam錢包。若您看到此訊息，說明要嘛您已經完成了支付（感謝！），要嘛彈窗未能正確打開。請檢查您瀏覽器位址欄或通知區域的通知並允許我們的頁面打開該彈窗。或者您也可以前往此處{link_html}。",
+      "link_text": "連結"
+    }
+  },
+  "gamecenter": {
+    "about": {
+      "title": "踏上冒險之路！",
+      "text": "《HAWKED》是一款免費的線上PvPvE奪寶射擊遊戲，即將登陸主機和Windows系統PC平臺。與夥伴組隊去探索一座神秘的小島，與怪物戰鬥，智取敵方玩家，偷走古代寶藏……然後逃出生天！",
+      "button": "欣賞預告片"
+    }
+  },
+  "promocode": {
+    "title": "兌換你的代碼",
+    "bubble": "獲得新東西！",
+    "noauth": {
+      "title": " ",
+      "text": "你不用前往X小島也能獲得寶藏。登入並兌換推廣碼即可解鎖《HAWKED》中的特殊內容！",
+      "button": "登入或註冊"
+    },
+    "tabs": {
+      "activation": "啟動",
+      "history": "歷史"
+    },
+    "code_enter_placeholder": "輸入你的代碼",
+    "code_enter_button": "查看內容",
+    "code_view_title": "推廣碼內容：",
+    "code_view_button": "兌換",
+    "code_success_title": "推廣碼已啟動！",
+    "code_success_text": "你的物品正在遊戲中等著你。",
+    "code_success_button": "啟動另一條代碼",
+    "return": "返回",
+    "history_null": "未兌換過代碼",
+    "history_loading": "正在載入歷史……",
+    "history_headings": [
+      "推廣碼",
+      "日期/時間",
+      "內容"
+    ],
+    "statuses": {
+      "10": {
+        "text": "進行中"
+      },
+      "20": {
+        "text": "進行中"
+      },
+      "30": {
+        "text": "啟動出現錯誤： ",
+        "extra": "錯誤代碼： {error}"
+      },
+      "40": {
+        "text": "已啟動物品： "
+      }
+    }
+  },
+  "packs": {
+    "content": {
+      "popup": {
+        "title": "禮包內含："
+      },
+      "categories": {
+        "renegade": "叛逆者自訂",
+        "item": "物品自訂",
+        "quarters": "宿舍自訂",
+        "premium": "尊貴內容"
+      },
+      "rewards": {
+        "trophy_hunter": {
+          "name": "獎盃獵手",
+          "description": "為你的突擊步槍裝備這套獵人皮膚，然後將準星對準敵人。",
+          "type": "武器皮膚"
+        },
+        "saurian_spoils": {
+          "name": "蜥蜴戰利品",
+          "description": "一件以門徒獸為主題的叛逆者配件，散發著一股不祥的氣息。",
+          "type": "背包"
+        },
+        "predator": {
+          "name": "掠食者",
+          "description": "踩著這塊皮質滑板悄悄接近你的獵物。",
+          "type": "懸浮滑板"
+        },
+        "rended_claws": {
+          "name": "撕裂之爪",
+          "description": "揮舞從兇猛敵人身上扳下來的利爪。",
+          "type": "拋繩槍"
+        },
+        "grave_relic": {
+          "name": "烈焰頭骨",
+          "description": "為你的裝飾增添幾分厄運的氣息。",
+          "type": "紀念品"
+        },
+        "scaly_stash": {
+          "name": "蜥蜴儲物箱",
+          "description": "用來「蜥」心存放你的物品，存得放心，存得省心。",
+          "type": "儲物櫃"
+        },
+        "disciple_hunter": {
+          "name": "門徒獸獵人",
+          "description": "追捕你的獵物直到X小島的盡頭。",
+          "type": "服裝（♂）"
+        },
+        "disciple_huntress": {
+          "name": "門徒獸獵人",
+          "description": "門徒獸的噩夢。",
+          "type": "服裝（♀）"
+        },
+        "shimmering_scales": {
+          "name": "閃光鱗片",
+          "description": "自訂服裝，讓你的造型和戰鬥表現同樣耀眼。",
+          "type": "顏色主題"
+        },
+        "renegade_pass": {
+          "name": "叛逆者通行證",
+          "description": "可解鎖一個賽季的高級獎勵。",
+          "type": ""
+        },
+        "cash": {
+          "name": "GE-0現金",
+          "description": "一種高級貨幣，可用來購買遊戲內的造型及其他物品。",
+          "value": {
+            "amethyst": "120",
+            "diamond": "300"
+          },
+          "type": ""
+        },
+        "grail_subscription": {
+          "name": "聖杯+訂閱",
+          "description": "高級訂閱可賦予你額外經驗值和比賽獎勵。",
+          "type": "",
+          "value": {
+            "amethyst": "30天",
+            "diamond": "90天"
+          }
+        }
+      }
+    },
+    "cards": {
+      "unavailable": "未上架",
+      "best_deal": "超值！",
+      "acquired": "已購買",
+      "info": "查看內容",
+      "steam_buy_button": "購買"
+    },
+    "top_up_banner": {
+      "bubble": "裝滿！",
+      "title": "GE-0現金",
+      "subtitle": "高級貨幣",
+      "text": "用GE-0現金裝滿你的叛逆者保險箱。這是一種遊戲內貨幣，你可以用它來購買叛逆者通行證和造型物品（如服裝、武器圖案、表情等）。",
+      "button": "立刻購買！"
+    },
+    "intro": {
+      "bubble": "寶藏！",
+      "title": "掠奪者<br>禮包",
+      "subtitle": "一網打盡！",
+      "text": "掠奪者禮包是款特殊組合包，內含貨幣、消耗品和獨家造型物品等豐富遊戲內道具。"
+    },
+    "payment": {
+      "header": "購買一個禮包",
+      "success_message": "你將於15分鐘內在遊戲中接收到你的新物品。請盡情享用你的掠奪者禮包吧！"
+    }
+  },
+  "rally": {
+    "intro": {
+      "bubble": "現在就加入聖杯！",
+      "title": "叛逆者集結",
+      "subtitle": "為獎勵而集結！",
+      "text": "聖杯需要更多的生力軍……但我們需要你的協助。把消息傳開，集結叛逆者，幫助聖杯達成靶子來獲取獨特遊戲內獎勵！",
+      "button": "立刻集結"
+    },
+    "timer": {
+      "bubble": "距離集結結束還有……"
+    },
+    "balance": "你的抽獎券： ",
+    "rewards": {
+      "header": {
+        "enlistment_rewards": "集結獎勵",
+        "goals": "集結靶子",
+        "raffle_rewards": "抽獎獎勵"
+      },
+      "items": {
+        "subscription": {
+          "name": "7天聖杯+訂閱",
+          "text": "聖杯+為訂閱服務，啟用時即可大幅增加你所獲得的戰利品，包括經驗提升20%、每日福利、額外1格儲物箱欄位、1項每週任務及2項每日任務。"
+        },
+        "token_souvenir": {
+          "name": "聖杯紀念章",
+          "text": "世界上最著名尋寶組織的成員專屬身份標誌。"
+        },
+        "dryad_color_scheme": {
+          "name": "樹妖配色方案",
+          "text": "與森林融為一體。使用該配色方案來自訂你的叛逆者風格！"
+        },
+        "forest_weapon_pattern": {
+          "name": "森林守護者武器圖案",
+          "text": "以這款武器圖案保衛大自然，同時讓你的裝備更加亮眼。"
+        },
+        "chloris_bloom_traverser": {
+          "name": "虎尾草花期拋繩槍",
+          "text": "鮮花綻放季，冒險進行時。揮舞這把拋繩槍，在X小島上揚名立萬！"
+        },
+        "ruby_pack": {
+          "name": "紅寶石掠奪者禮包（50個大獎名額）",
+          "text": "取得紅寶石掠奪者禮包，揭開X小島隱藏寶藏的秘密。內含一套全新武器造型、背包、懸浮滑板和拋繩槍！"
+        },
+        "amethyst_pack": {
+          "name": "紫水晶掠奪者禮包（30個大獎名額）",
+          "text": " 入手紫晶奪者禮包，崛起成為傳奇門徒獸獵人。內含令人生畏的叛逆者服裝、裝備、貨幣，以及更多豐富好康！"
+        },
+        "diamond_pack": {
+          "name": "鑽石掠奪者禮包（20個大獎名額）",
+          "text": "入手鑽石掠奪者禮包，發現X小島上最隱密的寶藏。內含叛逆者通行證，以及獨家的配色方案、服裝、裝備、貨幣等豐富好康！"
+        },
+        "ge_0_cash": {
+          "name": "終身GE-0現金補給（1個大獎名額）",
+          "text": "GE-0現金是《HAWKED》的一種遊戲內貨幣，你可以用它來購買當下開放的叛逆者通行證，以及服裝、武器圖案、表情等造型物品！如須瞭解更多詳情，請查閱常見問題解答。"
+        }
+      },
+      "pre_register": "加入集結！",
+      "renegades": "{count}叛逆者"
+    },
+    "info": {
+      "title": "快來加入叛逆者，我們需要你！",
+      "text": [
+        "X小島上的局勢正愈演愈烈，聖杯需要更多的生力軍幫忙解開島上的謎團……還有奪取它的寶藏。加入叛逆者集結，幫忙徵募新叛逆者，爭取集體獎勵，還有機會透過叛逆者抽獎贏取大獎！ ",
+        "參與方式非常簡單。註冊《HAWKED》帳號即可加入叛逆者集結，一旦註冊的玩家總數達到一定門檻，你就會接收到獨家遊戲內獎勵。關注《HAWKED》官方社群媒體頻道即可獲得抽獎券——兌換它們將有機會贏得掠奪者禮包乃至終身GE-0現金補給！共有101份大獎正待人領取，請務必別錯過本次天賜良機。",
+        "叛逆者，還在等什麼？趕快動身開始集結吧！"
+      ],
+      "button": "立刻集結"
+    },
+    "sharing": {
+      "title": "成功！",
+      "text": "準備集結！關注《HAWKED》的社交媒體頻道來獲取更多抽獎券。"
+    },
+    "sharing_all": {
+      "title": "啊哈！",
+      "text": "所有叛逆者集結獎勵均已發放。繼續加油，叛逆者！"
+    },
+    "action_end": {
+      "title": "叛逆者已集結",
+      "text": "感謝參加叛逆者集結！集結目前已暫告一段落，不過你還可以在社交媒體上關注《HWAKED》，從而隨時瞭解有關最新要聞、更新以及緊張刺激的活動等內容。"
+    },
+    "subscribe": {
+      "gift": {
+        "name": "頂尖考古學家帽",
+        "tag": "免費禮物"
+      },
+      "form": {
+        "title": "只需點擊2下即可獲得一件免費禮物！",
+        "text": "您已登入一個與以下電子郵件地址關聯的帳號：",
+        "placeholder": "您的電子郵件地址",
+        "agreements": "我想透過電子郵件接收有關《HAWKED》最近要聞、客製化行銷資訊和特別優惠的消息。 通過訂閱，我允許MY.GAMES B.V.使用我的電子郵件地址。如需瞭解更多我們如何處理您資訊的詳情，請參閱我們的<a href=\"https://documentation.my.games/terms/mygames_privacy\">>MY.GAMES B.V.隱私權政策</a>。",
+        "button": "訂閱"
+      },
+      "send": {
+        "title": "只需點擊1下即可獲得一件免費禮物！",
+        "text": "確認郵件已發送！請點擊確認郵件中的連結來確認您對《HAWKED》電子報的訂閱。",
+        "cant_resend": "出於安全考慮，您需要等待10分鐘才能再次發送確認郵件。若該問題持續存在，請聯繫我們的客服團隊。",
+        "button": "重新發送"
+      },
+      "resend": {
+        "title": "確認郵件已發送！",
+        "text": "您可於十分鐘後重新發送確認郵件。若未收到，請務必檢查下您的垃圾郵件資料夾！",
+        "button": "重新發送"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {year} MY.GAMES B.V.版權所有。所有商標為其各自所有者的財產。",
+    "address": "MY.GAMES B.V., DE ENTREE 256, 1101EE, AMSTERDAM, THE NETHERLANDS",
+    "docs": [
+      {
+        "link": "https://documentation.my.games/terms/mygames_tou",
+        "text": "使用條款"
+      },
+      {
+        "link": "https://documentation.my.games/terms/mygames_privacy",
+        "text": "隱私權政策"
+      },
+      {
+        "link": "https://documentation.my.games/terms/imprint",
+        "text": "發行商名稱"
+      },
+      {
+        "link": "https://documentation.my.games/terms/mygames_eula",
+        "text": "使用者授權合約"
+      }
+    ]
+  },
+  "terms": {
+    "title": "法律文件",
+    "description": "請務必查看遊戲的法律文件。若想繼續使用服務，您必須接受它們。",
+    "button": "繼續",
+    "terms_agreement": "按下「繼續」代表我接受以下條款{links}",
+    "links_date": "You accepted the following documents on ",
+    "links": [
+      {
+        "en": "使用條款",
+        "url": "https://documentation.my.games/terms/mygames_tou"
+      },
+      {
+        "en": "隱私政策",
+        "url": "https://documentation.my.games/terms/mygames_privacy"
+      },
+      {
+        "en": "發行商名稱",
+        "url": "https://documentation.my.games/terms/imprint"
+      },
+      {
+        "en": "使用者授權合約",
+        "url": "https://documentation.my.games/terms/mygames_eula"
+      }
+    ]
+  },
+  "mygames": {
+    "login": "登入",
+    "title": "完成您的《HAWKED》帳號建立",
+    "email_agreement": "我想透過電子郵件接收有關《HAWKED》最近要聞、客製化行銷資訊和特別優惠的消息。如需瞭解更多詳情，請閱讀我們的<a href=\"https://documentation.my.games/privacy/\">隱私權政策。",
+    "terms_agreement": "按下「繼續」代表我接受以下條款{links}",
+    "button": "繼續",
+    "error": {
+      "button": "返回登入畫面",
+      "text": "有錯誤發生，請嘗試重新載入頁面。"
+    }
+  }
+}

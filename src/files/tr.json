@@ -1,0 +1,915 @@
+{
+  "meta": {
+    "title": "HAWKED - PC, PS5, PS4 ve Xbox Series X|S'te Ücretsiz Oyna!",
+    "description": "HAWKED, Windows PC, PS4, PS5 ve Xbox Series X|S üzerinden oynanabilen ücretsiz bir çevrimiçi Hazine Avı ve Nişancılık oyunudur. Dört dörtlük hazine avına katıl ve gizemli bir dünyada kadim hazinelerin izini sürerken çatışmalara gir.",
+    "sharing_title": "HAWKED - PC, PS5, PS4 ve Xbox Series X|S'te Ücretsiz Oyna!",
+    "sharing_description": "HAWKED, Windows PC, PS4, PS5 ve Xbox Series X|S üzerinden oynanabilen ücretsiz bir çevrimiçi Hazine Avı ve Nişancılık oyunudur. Dört dörtlük hazine avına katıl ve gizemli bir dünyada kadim hazinelerin izini sürerken çatışmalara gir."
+  },
+  "common": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "timer": {
+      "days": "GÜN",
+      "hours": "SAAT",
+      "minutes": "DAKİKA",
+      "seconds": "SANİYE"
+    }
+  },
+  "noauth": {
+    "title": "Erişim Reddedildi",
+    "text": "Kaydol veya Giriş Yap",
+    "button": "GİRİŞ YAP VEYA KAYDOL"
+  },
+  "navigation": {
+    "button": "HEMEN OYNA",
+    "button_play": "HEMEN OYNA"
+  },
+  "errors": {
+    "error": "Hata",
+    "error_code": "Hata kodu:",
+    "button": "ANA SAYFAYA GİT",
+    "bubble": "OOOOPSSSS!!!!!!",
+    "default": {
+      "text": "Bu işlem şu anda yapılamaz. Lütfen daha sonra tekrar dene."
+    },
+    "400": {
+      "text": "Hatalı İstek"
+    },
+    "401": {
+      "text": "Yetkisiz Eylem"
+    },
+    "403": {
+      "text": "Erişim Reddedildi"
+    },
+    "404": {
+      "text": "Böyle bir sayfa yok. Aradığını bulmak için ana sayfaya dön!"
+    },
+    "405": {
+      "text": "Geçersiz Yöntem"
+    },
+    "408": {
+      "text": "Talep Zamanaşımına Uğradı"
+    },
+    "429": {
+      "text": "Talep sayısı sınırı aşıldı."
+    },
+    "500": {
+      "text": "Beklenmedik bir sunucu hatası oluştu. Ekibimiz bunun üzerinde çalışıyor. Gelişmeler için sosyal medya hesaplarımızı takip et!"
+    },
+    "503": {
+      "text": "Bu sayfa geçici olarak kullanılamıyor. Ekibimiz bunun üzerinde çalışıyor. Gelişmeler için sosyal medya hesaplarımızı takip et!"
+    },
+    "504": {
+      "text": "Ekibimiz bunu çözmek için çalışıyor. Gelişmeler için sosyal medya hesaplarımızı takip et!"
+    },
+    "1400": {
+      "text": "Devam etmek için giriş yapman veya kaydolman gerek."
+    },
+    "2105": {
+      "text": "Giriş başarısız. Farklı bir doğrulama yöntemi kullanmayı dene."
+    },
+    "5000": {
+      "text": "Bu promosyon kodu geçersiz."
+    },
+    "5001": {
+      "text": "Bu promosyon kodu geçersiz. Kodu yeniden gir veya farklı bir kodu dene."
+    },
+    "5002": {
+      "text": "Bu promosyon kodu henüz etkin değil. Daha sonra tekrar dene."
+    },
+    "5003": {
+      "text": "Bu promosyon kodunun süresi dolmuş."
+    },
+    "5004": {
+      "text": "Daha önce bu tür bir promosyon kodu kullanmışsın."
+    },
+    "5005": {
+      "text": "Daha fazla etkinleştirme girişiminde bulunamazsın."
+    },
+    "5007": {
+      "text": "Bu promosyon kodu bölgende kullanılamıyor."
+    },
+    "5008": {
+      "text": "Bu promosyon kodu bölgende kullanılamıyor."
+    },
+    "5200": {
+      "text": "Daha önce bu tür bir promosyon kodu kullanmışsın."
+    },
+    "5300": {
+      "text": "Geçersiz karakter, sembol veya rakam kullandın."
+    },
+    "5301": {
+      "text": "Bu içerik mevcut değil."
+    },
+    "5307": {
+      "text": "Girdiğin promosyon kodu hatalı."
+    },
+    "5400": {
+      "text": "Promosyon kodu etkinleştirilemedi. Lütfen daha sonra tekrar dene."
+    },
+    "7104": {
+      "text": "Yanlış e-posta adresi. "
+    },
+    "7106": {
+      "text": "Hata! Hesabın zaten {email} adresine bağlı ve pazarlama e-postalarına abone. "
+    },
+    "7107": {
+      "text": "Hata! Hesabın zaten {email} adresine bağlı ve pazarlama e-postalarına abone. "
+    },
+    "7109": {
+      "text": "Gönderim hatası. Doğrulama e-postası gönderimi başarısız oldu."
+    },
+    "7110": {
+      "text": "Yanlış e-posta adresi. "
+    },
+    "7111": {
+      "text": "Gönderim limiti aşıldı, doğrulama e-postası gönderimi başarısız oldu. Lütfen daha sonra tekrar dene."
+    },
+    "with_code": {
+      "text": "İşlem şu anda gerçekleştirilemiyor. Hata kodu:"
+    }
+  },
+  "home": {
+    "intro": {
+      "title": "DÖRT DÖRTLÜK HAZİNE AVINA KATIL",
+      "button": "AÇIK BETA'YA KATIL!",
+      "button_play": "AÇIK BETA'YA KATIL!"
+    },
+    "rally": {
+      "bubble": "SINIRLI SÜRELİ ETKİNLİK!",
+      "title": "YILBAŞI<br>SOYGUNU",
+      "subtitle": "YILBAŞINI KURTAR!",
+      "text": "Fevriâlem'i süsleme zamanı geldi. Hırsızı bulmak ve özel yılbaşı ganimetini kapmak için yeni yılbaşı temalı görevleri tamamla.",
+      "button": "DEVAMINI OKU"
+    },
+    "raider": {
+      "bubble": "HAZİNE!",
+      "title": "GANİMETİ KAP!",
+      "subtitle": "YAĞMACI PAKETLERİ",
+      "text": "Oyun içi değerli kaynaklar, tüketilebilir öğeler ve özel kozmetiklerle tıka basa dolu özel paketlerin kilidini aç.",
+      "button": "HEMEN SATIN AL!"
+    },
+    "top-up": {
+      "bubble": "DOLDUR!",
+      "title": "GE-0 JETONU",
+      "subtitle": "PREMIUM PARA BİRİMİ",
+      "text": "Gözüne çarpan parlak bir şey mi oldu? GE-0 Jetonlarını kullanarak Haydut Bileti, kozmetik eşya ve daha fazla oyun içi içerik satın alabilirsin!",
+      "button": "HEMEN SATIN AL!"
+    },
+    "twitch-drops": {
+      "bubble": "İZLE VE KAZAN!",
+      "title": "TWITCH<br>DROPLARI",
+      "subtitle": "GİR VE TOPLA",
+      "text": "Özel oyun içi içerikler kazanmak için Twitch'te seçili HAWKED yayınlarını izle! Hemen Twitch hesabını bağlayarak kazanmaya erkenden hazır ol.",
+      "button": "HADİ BAŞLAYALIM!"
+    },
+    "trailer": {
+      "button": "FRAGMANI İZLE"
+    },
+    "about": {
+      "main": {
+        "bubble": "İÇİNDEKİ HAYDUT AÇIĞA ÇIKSIN!",
+        "title": "AVA<br>KATIL!",
+        "subtitle": "HAWKED'A HOŞ GELDİN",
+        "text": "HAWKED, Windows PC, PlayStation 4, PlayStation 5 ve Xbox Series X|S üzerinden oynanabilen ücretsiz bir çevrimiçi Hazine Avı ve Nişancılık oyunudur. Dört dörtlük hazine avına katıl ve gizemli bir dünyada kadim hazinelerin izini sürerken çatışmalara gir.",
+        "button": "DAHA FAZLA BİLGİ"
+      },
+      "list": [
+        {
+          "title": "KURNAZ VE SİLAHLI!",
+          "text": "Sürgünada'da gezen vahşi Arakçılarla savaşmak ve rakip Haydutları zekânla alt etmek için silah, mermi ve ganimet topla!"
+        },
+        {
+          "title": "SÜRGÜNADA'YI KEŞFET!",
+          "text": "Yeşil manzaralar, sık ormanlar ve kadim harabelerle dolu, sürekli gelişen bu adanın gizemli dünyasında maceraya atıl!"
+        },
+        {
+          "title": "YAĞMALA GİTSİN!",
+          "text": "Eserleri çalmak için bulmacaları çöz ve düşmanları alt et. Onları gönderip geliştirerek yeni güçlerin kilidini aç!"
+        }
+      ]
+    },
+    "faq": {
+      "title": "SSS"
+    },
+    "news": {
+      "title": "EN YENİ HABERLER",
+      "bubble": "GÜNCEL KAL!",
+      "more": "DİĞER HABERLER"
+    },
+    "media": {
+      "title": "MEDYA",
+      "bubble": "KUSURSUZ GÖRSELLER!",
+      "more": "DAHA FAZLASI!"
+    },
+    "social": {
+      "title": [
+        "HAWKED'A",
+        "BAĞLAN"
+      ],
+      "bubble": "SOSYALLEŞ!",
+      "networks": [
+        {
+          "type": "facebook",
+          "link": "https://www.facebook.com/PlayHAWKEDtr"
+        },
+        {
+          "type": "instagram",
+          "link": "https://www.instagram.com/PlayHAWKED_TR/"
+        },
+        {
+          "type": "youtube",
+          "link": "https://www.youtube.com/{'@'}playHAWKED_TR"
+        },
+        {
+          "type": "twitch",
+          "link": "https://www.twitch.tv/PlayHawked"
+        },
+        {
+          "type": "discord",
+          "link": "https://discord.gg/hawkedtr"
+        },
+        {
+          "type": "tiktok",
+          "link": "https://www.tiktok.com/{'@'}playhawked_tr"
+        },
+        {
+          "type": "reddit",
+          "link": "https://www.reddit.com/r/Hawked/"
+        },
+        {
+          "type": "twitter",
+          "link": "https://twitter.com/PlayHAWKED_TR"
+        }
+      ],
+      "subscribe": {
+        "title": "RESMİ BÜLTEN",
+        "text": "Doğrudan gelen kutuna gönderilen güncellemeler, etkinlikler, özel teklifler ve çok daha fazlasıyla ilgili haberler sayesinde rakip Haydutlarla olan bu yarışta öne geç. Şimdi abone ol ve <b>ÜCRETSİZ Ace Arkeolog Şapkası'nı kazan</b>!",
+        "button": "ŞİMDİ ABONE OL!"
+      }
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "DÖRT DÖRTLÜK HAZİNE AVI",
+      "text": "Gizemli bir adada, Arakçılar olarak bilinen sürüngen canavarlar muazzam güce sahip kadim yadigârların peşinde. Bir Haydut ol ve bu eserleri çalıp çırparak, göndererek ve alıp kaçarak ateşe ateşle karşılık ver!"
+    },
+    "features": [
+      {
+        "title": "HEM AVLA HEM TOPLA!",
+        "text": "Arakçıları ve rakip Haydutları kurnazlığınla alt etmek için silah ve mermi topla, donanımını geliştir, özel güç ve yetenekler kullan ve gizemli eserleri kuşan."
+      },
+      {
+        "title": "TÜM ENGELLERİ AŞ!",
+        "text": "Çok çalışma, aklını çalıştır! Bulmacaları çöz, ölümcül tuzaklardan kaç, hazineyi açmak için semboller bul ve en iyi ganimetleri elde etmek için hazine avcılığı becerilerini geliştir."
+      },
+      {
+        "title": "KEŞFET VE MACERAYA ATIL!",
+        "text": "Özel etkinlikler ve sayılarla aralanan hikâyenin bir parçası ol. Düzenli güncellemeler ile yeni konumlar, düşmanlar, ödüller, hazineler ve dahasına hazırlan."
+      }
+    ],
+    "extraction": [
+      {
+        "title": "SEMBOLLERİ TOPLA",
+        "text": "Sembol toplamak için Sürgünada'daki karşılaşmaları tamamla. 5 sembol topladığında hazinenin yeri ortaya çıkacak."
+      },
+      {
+        "title": "HAZİNEYİ AÇ",
+        "text": "İçerideki eseri ortaya çıkarmak için hazine kapısındaki sembollere doğru sırayla ateş et."
+      },
+      {
+        "title": "ESERİ GÖNDER",
+        "text": "Sürgünada'nın dört bir yanında bulabileceğin gönderi noktaları ile topladığın eserleri Fevriâlem'e gönder."
+      }
+    ],
+    "map": {
+      "bubble": "KEŞİF HAREKÂTI!",
+      "title": "SÜRGÜNADA'YA<br>HOŞ GELDİN",
+      "info": {
+        "title": "Gizemli bir dünya seni bekliyor.",
+        "text": "Bu mistik ve fırtınalı ada, çoktandır unutulmuş bir insan uygarlığına ev sahipliği yapıyordu. Her yerde tapınaklar, hazineler ve sonsuz fırsatlar var. Ne duruyorsun? Sırları keşfedip yağmalamaya başla!"
+      },
+      "points": {
+        "garrharbor": {
+          "name": "GAR LİMANI",
+          "text": "Arakçıların fırtınada yitirilmiş gemilerin kalıntılarını topladığı bir kıyı bölgesi. Aynı zamanda adanın ana balıkçılık mevkisidir. (Uzman tavsiyesi: burnunu kapasan iyi edersin.) "
+        },
+        "cursed_tombs": {
+          "name": "LANETLİ MEZAR",
+          "text": "Ölmüş Arakçı savaşçılarının \"adaya geri dönmeleri\" ve savaşmaya devam etmeleri için getirildiği, diriltme ritüelleri yapılan kutsal bir yer."
+        },
+        "feeding_grounds": {
+          "name": "BESLENME ALANI",
+          "text": "Hem Arakçılar hem de kadim medeniyet tarafından kutsal görülen, Sürgünada'nın merkez bağlantı noktası. Eserler güçlü büyülerini buradaki büyük çukurda dövüldükten sonra kazanır. Aşağıda neler dönüyor acaba?"
+        },
+        "river_village": {
+          "name": "NEHİR KÖYÜ",
+          "text": "Bir zamanlar adanın eski sakinleri için kalabalık bir ticaret merkezi olan bu harabe köy, şimdi aşağılık Arakçıların fesatlıklarına ev sahipliği yapıyor. "
+        },
+        "beacon": {
+          "name": "FENER",
+          "text": "Işığın sana yol göstermesine izin ver. Kayıp medeniyet tarafından oluşturulan bu etkileyici yapının Sürgünada'yı saran doğaüstü fırtınayla bir bağı olduğu söylenir."
+        },
+        "raiding_portal": {
+          "name": "YAĞMALAMA PORTALI",
+          "text": "Arakçıların insanoğlunun geniş dünyasına pullu ayaklarıyla adım atma çabalarından bir tanesi. Çalışmıyor... tabii şimdilik."
+        },
+        "training_halls": {
+          "name": "EĞİTİM ALANI",
+          "text": "Arakçılar, sürüngen rütbelerini yükselmek için bu arenada savaşır. Bir zamanlar birlik beraberliğin sembloü olan bu alan artık Arakçıların ilkel istek ve ihtiyaçlarına göre değiştirilmiş hâlde. "
+        },
+        "mountain_temple": {
+          "name": "DAĞ TAPINAĞI",
+          "text": "Kayıp medeniyetten bilge insanlar burada gizemli yöntemler ve müzik aracılığıyla adanın enerjisiyle iletişime geçiyordu. Şimdi büyü kullanan Arakçılar burada hünerlerini geliştiriyor. "
+        },
+        "marsh_hollow": {
+          "name": "OYUK BATAKLIK",
+          "text": "Bu sulak alan, kayalığın dik yüzüne oyulmuş bir tapınağın zemini olarak iş görüyor. Gökyüzünü delen bu kadim yapı, eser dolu bataklığın üzerinde duruyor."
+        }
+      }
+    },
+    "hero": {
+      "bubble": "SUÇ ORTAKLARI!",
+      "title": "FEVRİÂLEM",
+      "info": {
+        "title": "GRAIL'ın su altındaki merkezine hoş geldin.",
+        "text": "Sürgünada'nın etrafındaki amansız sulara direnme gücüne sahip devasa boyuttaki bu yer, GRAIL'ın en iyi kiralık hazine avcılarına ev sahipliği yapar."
+      },
+      "list": {
+        "bodhi_hogan": {
+          "name": "BODHI HOGAN",
+          "text": "Heyecan peşinde koşan bu Haydut, işinin en iyilerindendir. Her zaman arkanı kollar, tabii rakibi değilsen."
+        },
+        "bjorn_bjornsson": {
+          "name": "DR. BJORN BJORNSSON",
+          "text": "Jeoloji ve volkanoloji dallarında uzman olan Haydut bir bilim insanı. Yürüyen Sürgünada ansiklopedisi gibidir."
+        },
+        "nellie_ruffin": {
+          "name": "NELLIE RUFFIN",
+          "text": "Yıllar boyu Arakçılar arasında isyan çıkartan bu Haydut, sürüye nereden saldırması gerektiğini çok iyi bilir."
+        },
+        "agent_cynthia": {
+          "name": "AJAN CYNTHIA",
+          "text": "Fevriâlem'de GRAIL'ın Haydut menajeri olarak görev yapan bu ajan, ekibindeki haydutları nasıl çalıştıracağını çok iyi bilir."
+        },
+        "ge_0": {
+          "name": "GE-0",
+          "text": "Fevriâlem'de GRAIL'ın tedarikçisi olarak görev yapan bir robot. Ana özelliği yağmalanan eserleri Haydutlardan toplayıp karşılığında mallar sunmasıdır."
+        }
+      }
+    }
+  },
+  "subscribe": {
+    "header": {
+      "title": "ABONE OL!",
+      "bubble": "ŞAPKANI KAP!"
+    },
+    "gift": {
+      "name": "ACE ARKEOLOG ŞAPKASI",
+      "tag": "ÜCRETSİZ HEDİYE"
+    },
+    "not_auth": {
+      "title": "3 TIKLA ÜCRETSİZ<br>HEDİYE AL!",
+      "text": "Resmi HAWKED bültenine abone olmak ve 3 tıkla ÜCRETSİZ <b>Ace Arkeolog Şapkası'nı</b> kazanmak için giriş yap veya kaydol!",
+      "button": "ŞİMDİ ABONE OL!"
+    },
+    "form": {
+      "title": "2 TIKLA ÜCRETSİZ<br>HEDİYE AL!",
+      "text": "Giriş yaptığın hesap şu e-posta adresine bağlı:",
+      "placeholder": "E-POSTA ADRESİN",
+      "agreements": "HAWKED ile ilgili en yeni haberleri, özenle hazırlanmış reklam iletilerini ve özel teklifleri e-postayla almak istiyorum.",
+      "button": "ABONE OL"
+    },
+    "send": {
+      "title": "1 TIKLA ÜCRETSİZ<br>HEDİYE AL!",
+      "text": "Alıcı e-posta adresi: {email}. Eğer e-postayı gelen kutunda göremezsen spam klasörünü kontrol etmeyi unutma.",
+      "cant_resend": "Güvenlik önlemleri nedeniyle tekrar doğrulama e-postası göndermek için 10 dakika beklemelisin. Bu sorun devam ederse lütfen destek ekibiyle iletişime geç.",
+      "button": "TEKRAR GÖNDER"
+    },
+    "success": {
+      "title": "HAWKED ABONESİ<br>OLDUN!",
+      "text": "Tebrikler, abone oldun! Ücretsiz <b>Ace Arkeolog Şapkası'na</b> kısa bir süre sonra oyun içinden erişebilirsin. En yeni HAWKED haberleri için e-postana göz atmayı unutma.",
+      "button": "ANA SAYFAYA GİT"
+    },
+    "features": {
+      "title": "HAWKED ABONELİĞİNİN FAYDALARI:",
+      "list": {
+        "news": {
+          "title": "EN YENİ HABERLER",
+          "text": "Doğrudan gelen kutuna gönderilen güncellemeler, etkinlikler ve çok daha fazlasıyla ilgili haberlerle günceli yakala."
+        },
+        "offers": {
+          "title": "ÖZEL TEKLİFLER",
+          "text": "Pazarlık havanda mısın? Oyun içi yeni fırsatlar ve indirimlerle ilgili bildirimler al. Ayrıca abonelere özel tekliflerden faydalan."
+        },
+        "benefits": {
+          "title": "ÖZEL AVANTAJLAR",
+          "text": "Sadece sana özel. Bir abone olarak oyununa seviye atlatacak özenle hazırlanmış iletiler ve ücretsiz hediyelerden faydalanabilirsin."
+        }
+      }
+    }
+  },
+  "news": {
+    "header": {
+      "title": "HABERLER VE GÜNCELLEMELER",
+      "bubble": "GÜNCEL KAL!"
+    },
+    "more": "DİĞER HABERLER",
+    "no_news": "Şu an bu kategori̇de yeni̇ bi̇r haber yok. güncellemeler i̇çi̇n daha sonra tekrar göz at!",
+    "all": "TÜMÜ"
+  },
+  "press": {
+    "title": "BASIN KİTİ",
+    "text": [
+      "HAWKED'u incelemek isteyen bir içerik üreticisi veya gazeteci misin?",
+      "Basın Kiti'ni indirerek oyun unsurlarını ve bilgilerini al veya <a href=\"mailto:press{'@'}my.games\">press{'@'}my.games</a> adresi üzerinden bizimle iletişime geç."
+    ],
+    "bubble": "HER ŞEYDEN HABERDAR OL!",
+    "button": "BASIN KİTİ'Nİ İNDİR"
+  },
+  "faq": {
+    "title": "SSS",
+    "bubble": "BİLMEN GEREKEN HER ŞEY!"
+  },
+  "media": {
+    "title": "MEDYA",
+    "bubble": "GÖZÜNÜ HAZİNEDEN AYIRMA!",
+    "categories": {
+      "all": "Tümü",
+      "screenshot": "EKRAN GÖRÜNTÜLERİ",
+      "video": "VİDEOLAR",
+      "art": "KONSEPT SANAT"
+    }
+  },
+  "account": {
+    "title": "HESABIM",
+    "bubble": "BİLGİLERİN BURADA!",
+    "noauth": {
+      "title": "",
+      "text": "Hesabına hoş geldin! Burada giriş yaparak veya kaydolarak hesap detaylarına erişebilir, Oyuncu ID'ni kontrol edebilir, oyun hesabını yeni platformlara bağlayabilir ve şifreni değiştirebilirsin."
+    },
+    "categories": {
+      "user": "HESAP BİLGİLERİ"
+    },
+    "user": {
+      "nickname": "KULLANICI ADI:",
+      "user_id": "KULLANICI ID'Sİ:",
+      "change_password": "ŞİFRENİ SIFIRLA"
+    },
+    "twitch": {
+      "connect": {
+        "title": "ŞU HESAPLA GİRİŞ YAPTIN:",
+        "button": "HESABINI TWITCH'LE BAĞLA"
+      },
+      "stream": {
+        "title": "ŞU HESAPLA GİRİŞ YAPTIN:",
+        "twitch": "TWITCH HESABIN:",
+        "button": "TWITCH'TE İZLE"
+      }
+    }
+  },
+  "twitchdrops": {
+    "title": "TWITCH DROPLARI",
+    "not_auth": {
+      "title": "OYUN HESABINI BAĞLA:",
+      "button": "GİRİŞ YAP VEYA KAYDOL",
+      "note": "HAWKED oynadığın platformdaki hesabını seçerek giriş yap. Giriş yapamıyorsan açılır pencerelerin etkin olduğundan emin ol."
+    },
+    "connect": {
+      "login": "ŞU HESAPLA GİRİŞ YAPTIN:",
+      "logout": "Çıkış Yap",
+      "button": "HESABINI TWITCH'LE BAĞLA",
+      "note": "Click the button to complete the linking process."
+    },
+    "stream": {
+      "login": "ŞU HESAPLA GİRİŞ YAPTIN:",
+      "twitch": "TWITCH HESABIN:",
+      "button": "TWITCH'TE İZLE",
+      "note": "ÖNEMLİ: Bir Twitch hesabına yalnızca bir HAWKED hesabı bağlanabilir. Bağlı hesabı değiştirmek için Twitch'e git ve hesap ayarlarındaki \"Diğer Bağlantılar\" kısmından HAWKED'un bağlantısını kes."
+    },
+    "errors": {
+      "text": "Bİ̇R HATA OLUŞTU. SAYFAYI YENİLEMEYİ DENE."
+    },
+    "features": [
+      {
+        "title": "1. HESAPLARINI BAĞLA",
+        "text": "Bu sayfadaki adımları uygulayarak Twitch hesabını Twitch Droplarını almasını istediğin HAWKED hesabı ile bağla."
+      },
+      {
+        "title": "2. YAYINLARI KAÇIRMA",
+        "text": "Twitch'te Dropları etkin İçerik Üreticilerinin HAWKED yayınlarını izle."
+      },
+      {
+        "title": "3. ÖDÜLLERİ AL!",
+        "text": "Yeterince izleme saatinden sonra Twitch Droplarını <a href=\"https://www.twitch.tv/drops/inventory\">Twitch Drop Envanteri</a> sayfasından al!"
+      }
+    ],
+    "reward": {
+      "bubble": "İZLE VE KAZAN!",
+      "title": "YENİ DROPLAR"
+    }
+  },
+  "top_up": {
+    "title": "GE-0 JETONU",
+    "bubble": "DOLDUR!",
+    "change_currency": "BİRİM DEĞİŞTİR",
+    "intro": {
+      "subtitle": "PREMIUM PARA BİRİMİ",
+      "description": "GE-0 Jetonu, mevcut Haydut Bileti'nin yanında Kıyafetler, İfadeler ve dahası gibi kozmetik eşyalar almak için harcayabileceğin bir oyun içi premium para birimidir."
+    },
+    "offer": {
+      "buy_button": "SATIN AL",
+      "best_deal": "EN İYİ FİYAT!",
+      "one_time_offer": "SINIRLI TEKLİF"
+    },
+    "balance": {
+      "label": "BALANCE:"
+    },
+    "payment_info": {
+      "title": "ŞU HESAP İÇİN {offer_name} SATIN AL:",
+      "refresh_button": "Ödeme durumunu yenile"
+    },
+    "error": {
+      "title": "BİR ŞEYLER TERS GİTTİ",
+      "button": "SAYFAYI YENİDEN YÜKLE"
+    },
+    "success": {
+      "title": "ÖDEME BAŞARILI!",
+      "message": "GE-0 Jetonların 15 dakika içinde oyun içinde erişilebilir olacak. İyi eğlenceler Haydut!"
+    },
+    "packs": {
+      "bubble": "HAZİNE!",
+      "title": "YAĞMACI<br>PAKETLERİ",
+      "subtitle": "GANİMETİ KAP!",
+      "text": "Yağmacı Paketleri değerli kaynaklar, tüketilebilir öğeler ve özel kozmetikler gibi oyun içi içeriklerle tıka basa dolu özel paketlerdir.",
+      "button": "HEMEN SATIN AL!"
+    },
+    "game_center": {
+      "balance": "BAKİYE: {balance} GE-0 JETONU",
+      "balance_error": "BAKİYE: HATA",
+      "selected": "TAVSİYE EDİLEN"
+    },
+    "popups": {
+      "shard_error": {
+        "title": "SATIN ALIM TAMAMLANAMADI. LÜTFEN DAHA SONRA TEKRAR DENE."
+      },
+      "character_error": {
+        "title": "DİKKAT!",
+        "body": "Satın alım yapmadan önce en az bir kez HAWKED oynamış olman gerek."
+      }
+    },
+    "alarm_disclaimer": "Ödeme yaparak, ücretini ödediğin dijital içerik için tarafına anında erişim hakkı verileceğini, dolayısıyla dijital ürünün kusurlu olduğu durumlar haricinde otomatik yasal cayma hakkından feragat ettiğini ve buna izin verdiğini kabul edersin."
+  },
+  "purchase_pending": {
+    "default": {
+      "success": {
+        "title": "ÖDEME ALINIYOR..."
+      },
+      "fail": {
+        "button": "DESTEK İLE İLETİŞİME GEÇ",
+        "link": "https://support.my.games/hw",
+        "title": "BİR ŞEYLER TERS GİTTİ"
+      }
+    },
+    "steam": {
+      "success": {
+        "top-up": {
+          "button": "HEMEN OYNA!",
+          "title": "SATIN ALIMIN İÇİN TEŞEKKÜRLER!",
+          "text": "Satın alımının başarılı olduğuna dair Steam'den bir e-posta alacaksın. Yeni eşyaların da çok yakında oyun içinde erişilebilir olacak!"
+        }
+      },
+      "fail": {
+        "button": "DESTEK İLE İLETİŞİME GEÇ",
+        "link": "https://help.steampowered.com",
+        "title": "BİR ŞEYLER TERS GİTTİ",
+        "text": "Ödeme sırasında oluşan bir hatadan ötürü satın alımın gerçekleştirilemedi. Lütfen tekrar dene veya yardım almak için <b>Steam Destek</b> ile iletişime geç."
+      }
+    }
+  },
+  "preorder": {
+    "steam": {
+      "warning": "Satın alma işlemine devam etmek için Steam Cüzdanın bir tarayıcı açılır penceresinde açılacak. Bu bildirimi görüyorsan ya ödemeni tamamladın (Teşekkürler!) ya da bu açılır pencere doğru şekilde açılmadı. Lütfen tarayıcının adres çubuğundaki veya bildirim alanındaki bildirimi kontrol et ve sayfamızın bu açılır pencereyi açabilmesi için izin ver. Aksi takdirde şu bağlantıyı kullan: {link_html}.",
+      "link_text": "bağlantı"
+    }
+  },
+  "gamecenter": {
+    "about": {
+      "title": "MACERAYA ATIL!",
+      "text": "HAWKED, yakında PC ve konsollara çıkış yapacak ücretsiz bir çevrimiçi PvPvE hazine avı ve nişancılık oyunudur. Gizemli bir adayı keşfetmek için arkadaşlarınla ekip ol, yaratıklarla savaş ve kadim hazineleri ele geçirmek için zekânla düşman oyuncuları alt et... sonra da oradan toz ol!",
+      "button": "FRAGMANI İZLE"
+    }
+  },
+  "promocode": {
+    "title": "KODUNU KULLAN",
+    "bubble": "YENİ ŞEYLER AL!",
+    "noauth": {
+      "title": " ",
+      "text": "Hazine bulmak için Sürgünada'ya gitmeye gerek yok. Promosyon kodlarını kullanmak ve HAWKED'da özel içerikler açmak için giriş yap!",
+      "button": "GİRİŞ YAP VEYA KAYDOL"
+    },
+    "tabs": {
+      "activation": "ETKİNLEŞTİRME",
+      "history": "GEÇMİŞ"
+    },
+    "code_enter_placeholder": "KODUNU GİR",
+    "code_enter_button": "İÇERİĞİ GÖRÜNTÜLE",
+    "code_view_title": "PROMOSYON KODU İÇERİĞİ:",
+    "code_view_button": "KULLAN",
+    "code_success_title": "PROMOSYON KODU ETKİNLEŞTİRİLDİ!",
+    "code_success_text": "Eşyaların oyun içinde seni bekliyor.",
+    "code_success_button": "BAŞKA BİR KOD ETKİNLEŞTİR",
+    "return": "GERİ DÖN",
+    "history_null": "HİÇ KOD KULLANILMADI",
+    "history_loading": "Alım Geçmişi Yükleniyor...",
+    "history_headings": [
+      "PROMOSYON KODU",
+      "GÜN/SAAT",
+      "İÇERİK"
+    ],
+    "statuses": {
+      "10": {
+        "text": "İşlem Sürüyor"
+      },
+      "20": {
+        "text": "İşlem Sürüyor"
+      },
+      "30": {
+        "text": "Etkinleştirme Hatası: ",
+        "extra": "Hata Kodu: {error}"
+      },
+      "40": {
+        "text": "Etkinleştirilen Eşyalar: "
+      }
+    }
+  },
+  "packs": {
+    "content": {
+      "popup": {
+        "title": "PAKETİN İÇİNDEKİLER:"
+      },
+      "categories": {
+        "renegade": "Haydut Özelleştirme",
+        "item": "Eşya Özelleştirme",
+        "quarters": "Kamara Özelleştirme",
+        "premium": "Seçkin İçerikler"
+      },
+      "rewards": {
+        "trophy_hunter": {
+          "name": "Yadigâr Avcısı",
+          "description": "Avcı temalı bu taarruz tüfeği görünümüyle düşmanlarını gözünden ayırma.",
+          "type": "Silah Görünümü"
+        },
+        "saurian_spoils": {
+          "name": "Sürüngen Ganimetleri",
+          "description": "Haydut'un için Arakçı temalı korku salan bir aksesuar.",
+          "type": "Sırt Çantası"
+        },
+        "predator": {
+          "name": "Avcı",
+          "description": "Bu deri parçalı Kaykay ile avını sinsice izle.",
+          "type": "Kaykay"
+        },
+        "rended_claws": {
+          "name": "Yırtıcı Pençeler",
+          "description": "Bir zamanlar azılı bir düşmana ait olan bu gizemli pençeleri kuşan.",
+          "type": "Volta"
+        },
+        "grave_relic": {
+          "name": "Mezar Eseri",
+          "description": "Ortama biraz kıyamet havası kat.",
+          "type": "Hediyelik Eşya"
+        },
+        "scaly_stash": {
+          "name": "Pullu Zula",
+          "description": "Her şeyin güvende, sağlam ve pullu kalmasını sağlar.",
+          "type": "Dolap"
+        },
+        "disciple_hunter": {
+          "name": "Arakçı Avcısı",
+          "description": "Avını Sürgünada'nın ucuna kadar izle.",
+          "type": "Kıyafeti ♂"
+        },
+        "disciple_huntress": {
+          "name": "Arakçı Kâbusu",
+          "description": "Arakçıların belası.",
+          "type": "Kıyafeti ♀"
+        },
+        "shimmering_scales": {
+          "name": "Pırıltılı Pullar",
+          "description": "Kıyafetini özelleştir ve dövüştüğün kadar parla.",
+          "type": "Renk Paleti"
+        },
+        "renegade_pass": {
+          "name": "Haydut Bileti",
+          "description": "Bir Sayı'nın Seçkin ödül hattının erişim kilidini açar.",
+          "type": ""
+        },
+        "cash": {
+          "name": "GE-0 JETONU",
+          "description": "Oyun içi kozmetik eşyalar ve daha fazlası için harcanan bir premium para birimi.",
+          "type": "",
+          "value": {
+            "amethyst": "120",
+            "diamond": "300"
+          }
+        },
+        "grail_subscription": {
+          "name": "GRAIL+ ABONELİĞİ",
+          "description": "Bonus DP ve karşılaşma ödülleri veren seçkin bir abonelik.",
+          "type": "",
+          "value": {
+            "amethyst": "30 GÜNLÜK",
+            "diamond": "90 GÜNLÜK"
+          }
+        }
+      }
+    },
+    "cards": {
+      "unavailable": "MEVCUT DEĞİL",
+      "best_deal": "EN İYİ!",
+      "acquired": "AÇILDI",
+      "info": "İÇERİKLERİ GÖRÜNTÜLE",
+      "steam_buy_button": "SATIN AL"
+    },
+    "top_up_banner": {
+      "bubble": "DOLDUR!",
+      "title": "GE-0 JETONU",
+      "subtitle": "PREMIUM PARA BİRİMİ",
+      "text": "Haydut kasalarını GE-0 Jetonu ile doldur! GE-0 Jetonu; Haydut Bileti, kozmetik eşyalar (Kıyafet, Silah Deseni, İfade vb.) ve çok daha fazlasını satın almada kullanabileceğin bir oyun için para birimidir.",
+      "button": "HEMEN SATIN AL!"
+    },
+    "intro": {
+      "bubble": "HAZİNE!",
+      "title": "YAĞMACI PAKETLERİ",
+      "subtitle": "GANİMETİ KAP!",
+      "text": "Yağmacı Paketleri değerli kaynaklar, tüketilebilir öğeler ve özel kozmetikler gibi oyun içi içeriklerle tıka basa dolu özel paketlerdir."
+    },
+    "payment": {
+      "header": "BİR PAKET SATIN AL",
+      "success_message": "Yeni eşyaların 15 dakika içinde oyun içinde erişilebilir olacak. Yağmacı Paketi'nin tadını çıkar!"
+    }
+  },
+  "rally": {
+    "intro": {
+      "bubble": "HEMEN GRAIL'E KATIL!",
+      "title": "HAYDUT<br>ÇAĞRISI",
+      "subtitle": "ÖDÜLLER İÇİN ÇAĞRIYA KATIL!",
+      "text": "GRAIL'e daha fazla Haydut gerek fakat bu konuda yardımına ihtiyacımız var. Bu durumu çevrene duyur, Haydutları bir araya getir ve özel oyun içi ödüller kazanmak için GRAIL'in hedeflerine ulaşmasına yardım et!",
+      "button": "ÇAĞRIYA KATIL!"
+    },
+    "timer": {
+      "bubble": "ÇAĞRININ BİTMESİNE..."
+    },
+    "balance": "ÇEKİLİŞ BİLETLERİN:",
+    "rewards": {
+      "header": {
+        "enlistment_rewards": "ÇAĞRI ÖDÜLLERİ",
+        "goals": "ÇAĞRI HEDEFLERİ",
+        "raffle_rewards": "ÇEKİLİŞ ÖDÜLLERİ"
+      },
+      "items": {
+        "subscription": {
+          "name": "7 GÜNLÜK GRAIL+ ABONELİĞİ",
+          "text": "GRAIL+, etkin olduğu süre boyunca %20 deneyim takviyesi, günlük avantajlar, bir adet ek kilitli kutu yuvası, bir adet haftalık görev ve iki adet günlük görev sunarak yağmacılığını üst düzeye taşımana yardımcı olan bir aboneliktir."
+        },
+        "token_souvenir": {
+          "name": "GRAIL JETONU HEDİYELİK EŞYASI",
+          "text": "Dünyanın en ünlü hazine avı örgütünün seçkin bir üyesi olduğunu gösteren semboldür."
+        },
+        "dryad_color_scheme": {
+          "name": "ORMAN PERİSİ RENK PALETİ",
+          "text": "Ormanın enerjisini içinde hisset. Bu renk paleti ile Haydut tarzını özelleştir!"
+        },
+        "forest_weapon_pattern": {
+          "name": "ORMAN MUHAFIZI SİLAH DESENİ",
+          "text": "Bu silah deseni ile doğayı korurken donanımını filizlendir."
+        },
+        "chloris_bloom_traverser": {
+          "name": "ÇİÇEK FİLİZİ VOLTA",
+          "text": "Yeni maceralar çiçek açıyor. Sürgünada'da adını duyururken bu Volta'yı kuşan!"
+        },
+        "ruby_pack": {
+          "name": "YAKUT YAĞMACI PAKETİ (50 ÖDÜL)",
+          "text": "Yakut Yağmacı Paketi ile Sürgünada'nın gizli hazinelerini açığa çıkar. Yeni bir Silah Görünümü, Sırt Çantası, Uçuş Tahtası ve Volta içerir!"
+        },
+        "amethyst_pack": {
+          "name": "AMETİST YAĞMACI PAKETİ (30 ÖDÜL)",
+          "text": "Ametist Yağmacı Paketi ile Arakçı Avcısı efsanesini yaşat. Göz korkutucu Haydut kıyafetleri, teçhizat, değerli kaynak ve çok daha fazlasını içerir!"
+        },
+        "diamond_pack": {
+          "name": "ELMAS YAĞMACI PAKETİ (20 ÖDÜL)",
+          "text": "Sürgünada'nın en gizli ve esrarengiz hazinelerini Elmas Yağmacı Paketi ile keşfet. Bir Haydut Bileti, bir eşsiz renk paleti, kıyafetler, teçhizat, değerli kaynak ve çok daha fazlasını içerir!"
+        },
+        "ge_0_cash": {
+          "name": "ÖMÜR BOYU GE-0 JETONU (1 ÖDÜL)",
+          "text": "GE-0 Jetonu, HAWKED'da mevcut Haydut Bileti'nin yanında Kıyafet, Silah Desenleri, İfadeler ve dahası gibi kozmetik eşyalar almak için harcayabileceğin bir para birimidir. Daha fazla ayrıntı için SSS'yi kontrol et."
+        }
+      },
+      "pre_register": "ÇAĞRIYA KULAK VER!",
+      "renegades": "{count} HAYDUT"
+    },
+    "info": {
+      "title": "SENİ HAYDUTLAR ARASINDA GÖRMEK İSTİYORUZ!",
+      "text": [
+        "Sürgünada'da işler kızışıyor. Adanın gizemlerini ortaya çıkarmak ve adadaki hazineleri ele geçirmek için GRAIL'in daha fazla nefere ihtiyacı var. Haydut Çağrısı'na katılarak GRAIL'e yeni Haydutlar kazandır, daha fazla topluluk ödülü kazanmaya destek ol ve Haydut Çekilişi'nden ödüller kazanma şansı yakala!",
+        "Katılmak oldukça basit. Haydut Çağrısı'na katılmak için kaydolarak bir HAWKED hesabı edin, yeterli sayıda oyuncu kaydolduğunda oyun içi özel ödüller kazanmaya başlayacaksın. HAWKED'un resmi sosyal medya kanallarını takip ederek Çekiliş Biletleri kazan. Biletleri kullanarak Yağmacı Paketleri ve ömür boyu GE-0 Jetonu tedariki kazanma şansı yakala! Alınacak tam 101 adet ödül var, hepsini almak için çabaladığından emin ol.",
+        "Daha ne bekliyorsun? İşe koyul ve çağrıya başla Haydut!"
+      ],
+      "button": "ADA SENİ ÇAĞIRIYOR!"
+    },
+    "sharing": {
+      "title": "BAŞARILI!",
+      "text": "Maceraya hazırlan! HAWKED'u sosyal medyada takip ederek daha fazla Çekiliş Bileti kazan."
+    },
+    "sharing_all": {
+      "title": "OLDU!",
+      "text": "Tüm Haydut Çağrısı bonusları alındı. Harika işler çıkarıyorsun Haydut, böyle devam et!"
+    },
+    "action_end": {
+      "title": "ÇAĞRILAN HAYDUTLAR",
+      "text": "Haydut Çağrısı'na katıldığın için teşekkürler! Şimdilik bizden bu kadar ama en yeni haberlerden, güncellemelerden ve heyecan verici etkinliklerden geri kalmamak için HAWKED'ı sosyal medya kanallarında takip edebilirsin."
+    },
+    "subscribe": {
+      "gift": {
+        "name": "ACE ARKEOLOG ŞAPKASI",
+        "tag": "ÜCRETSİZ HEDİYE"
+      },
+      "form": {
+        "title": "2 TIKLA ÜCRETSİZ<br>HEDİYE AL!",
+        "text": "Giriş yaptığın hesap şu e-posta adresine bağlı:",
+        "placeholder": "E-POSTA ADRESİN",
+        "agreements": "HAWKED ile ilgili en yeni haberleri, benim için hazırlanmış reklam iletilerini ve özel teklifleri e-postayla almak istiyorum. Abone olarak, e-posta adresimin MY.GAMES B.V. tarafından kullanılmasına izin veriyorum. Veri kullanımımıza dair daha fazla bilgi için <a href=\"https://documentation.my.games/terms/mygames_privacy\">MY.GAMES B.V. Gizlilik Politikası</a> sayfasını ziyaret et.",
+        "button": "ABONE OL"
+      },
+      "send": {
+        "title": "1 TIKLA ÜCRETSİZ<br>HEDİYE AL!",
+        "text": "Onay gönderildi! Lütfen gelen e-postadaki bağlantıya tıklayarak HAWKED aboneliğini onayla.",
+        "cant_resend": "Güvenlik önlemleri nedeniyle tekrar doğrulama e-postası göndermek için 10 dakika beklemelisin. Bu sorun devam ederse lütfen destek ekibiyle iletişime geç."
+      },
+      "resend": {
+        "title": "ONAY GÖNDERİLDİ!",
+        "text": "Onay e-postasını 10 dakika sonra tekrar gönderebilirsin. Lütfen spam klasörünü kontrol etmeyi unutma.",
+        "button": "TEKRAR GÖNDER"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {year} MY.GAMES B.V. The Four Winds Entertainment B.V. tarafından yayınlanmıştır. Her hakkı saklıdır.",
+    "address": "MY.GAMES B.V., DE ENTREE 256, 1101EE, AMSTERDAM, THE NETHERLANDS",
+    "docs": [
+      {
+        "link": "https://documentation.my.games/terms/mygames_tou",
+        "text": "KULLANIM ŞARTLARI"
+      },
+      {
+        "link": "https://documentation.my.games/terms/mygames_privacy",
+        "text": "GİZLİLİK POLİTİKASI"
+      },
+      {
+        "link": "https://documentation.my.games/terms/imprint",
+        "text": "YAYINCI"
+      },
+      {
+        "link": "https://documentation.my.games/terms/mygames_eula",
+        "text": "SKLA"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Yasal belgeler",
+    "description": "Lütfen oyun yasal belgelerini okuduğunuzdan emin olun. Hizmeti kullanmaya devam etmek için okuduğunuzu kabul etmeniz gerekir.",
+    "button": "Devam et",
+    "terms_agreement": "Devam' tuşuna basarak kabul ediyorum {links}",
+    "links_date": "Bu tarihte aşağıdaki belgeleri kabul ettiniz: ",
+    "links": [
+      {
+        "url": "https://documentation.my.games/terms/mygames_tou",
+        "tr": "KULLANIM ŞARTLARI"
+      },
+      {
+        "url": "https://documentation.my.games/terms/mygames_privacy",
+        "tr": "GİZLİLİK POLİTİKASI"
+      },
+      {
+        "url": "https://documentation.my.games/terms/imprint",
+        "tr": "YAYINCI"
+      },
+      {
+        "url": "https://documentation.my.games/terms/mygames_eula",
+        "tr": "SKLA"
+      }
+    ]
+  },
+  "mygames": {
+    "login": "Giriş Yap",
+    "title": "HAWKED Hesap Oluşturma İşlemini Tamamla",
+    "email_agreement": "HAWKED ile ilgili en yeni haberleri, benim için hazırlanmış reklam iletilerini ve özel teklifleri e-postayla almak istiyorum. Abone olarak, e-posta adresimin MY.GAMES B.V. tarafından kullanılmasına izin veriyorum. Veri kullanımımıza dair daha fazla bilgi için <a href=\"https://documentation.my.games/privacy/\">MY.GAMES B.V. Gizlilik Politikası</a> sayfasını ziyaret et.",
+    "terms_agreement": "\"Devam\" tuşuna basarak şartları kabul ediyorum {links}",
+    "button": "Devam",
+    "error": {
+      "button": "Giriş Sayfasına Dön",
+      "text": "Bi̇r hata oluştu. Sayfayı yenilemeyi dene."
+    }
+  }
+}

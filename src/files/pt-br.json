@@ -1,0 +1,915 @@
+{
+  "meta": {
+    "title": "HAWKED - Jogue GRÁTIS no PC, PS5, PS4 e Xbox Series X|S!",
+    "description": "HAWKED é um jogo de tiro e extração online disponível para PC Windows, PS4, PS5 e Xbox Series X|S. Participe da grande caça ao tesouro, explore e enfrente um mundo misterioso em busca de antigos tesouros.",
+    "sharing_title": "HAWKED - Jogue GRÁTIS no PC, PS5, PS4 e Xbox Series X|S!",
+    "sharing_description": "HAWKED é um jogo de tiro e extração online disponível para PC Windows, PS4, PS5 e Xbox Series X|S. Participe da grande caça ao tesouro, explore e enfrente um mundo misterioso em busca de antigos tesouros."
+  },
+  "common": {
+    "login": "Entrar",
+    "logout": "Sair",
+    "timer": {
+      "days": "DIAS",
+      "hours": "HORAS",
+      "minutes": "MINUTOS",
+      "seconds": "SEGUNDOS"
+    }
+  },
+  "noauth": {
+    "title": "Acesso negado",
+    "text": "Registre-se ou Faça login",
+    "button": "LOGIN OU REGISTRAR-SE"
+  },
+  "navigation": {
+    "button": "JOGAR JÁ",
+    "button_play": "JOGAR JÁ"
+  },
+  "errors": {
+    "error": "Erro",
+    "error_code": "Código do erro:",
+    "button": "IR PARA A PÁGINA PRINCIPAL",
+    "bubble": "OOOOPSSSS!!!!!!",
+    "default": {
+      "text": "Não é possível realizar essa operação agora. Tente mais tarde."
+    },
+    "400": {
+      "text": "Solicitação incorreta"
+    },
+    "401": {
+      "text": "Ação não autorizada"
+    },
+    "403": {
+      "text": "Acesso negado"
+    },
+    "404": {
+      "text": "Essa página não existe. Volte para a página inicial para buscar o que você deseja!"
+    },
+    "405": {
+      "text": "Método inválido"
+    },
+    "408": {
+      "text": "Tempo de solicitação excedido"
+    },
+    "429": {
+      "text": "O número de solicitações excede o limite."
+    },
+    "500": {
+      "text": "Ocorreu um erro inesperado no servidor. Nossa equipe está trabalhando nisso. Fique de olho nas notícias nas redes sociais!"
+    },
+    "503": {
+      "text": "Esta página está temporariamente indisponível. Nossa equipe está trabalhando nisso. Fique de olho nas notícias nas redes sociais!"
+    },
+    "504": {
+      "text": "Nossa equipe está trabalhando para resolver isso. Fique de olho nas notícias nas redes sociais!"
+    },
+    "1400": {
+      "text": "Você precisa entrar na conta ou se registrar para prosseguir."
+    },
+    "2105": {
+      "text": "Falha ao entrar. Tente outra forma de autenticação."
+    },
+    "5000": {
+      "text": "O código promocional é inválido."
+    },
+    "5001": {
+      "text": "O código promocional é inválido. Tente inseri-lo novamente ou digite um código diferente."
+    },
+    "5002": {
+      "text": "O código promocional ainda não está ativo. Tente novamente mais tarde."
+    },
+    "5003": {
+      "text": "O código promocional expirou."
+    },
+    "5004": {
+      "text": "Você já usou um código promocional deste tipo."
+    },
+    "5005": {
+      "text": "Você esgotou suas tentativas de ativação."
+    },
+    "5007": {
+      "text": "Este código promocional não pode ser resgatado na sua região."
+    },
+    "5008": {
+      "text": "Este código promocional não pode ser resgatado na sua região."
+    },
+    "5200": {
+      "text": "Você já usou um código promocional deste tipo."
+    },
+    "5300": {
+      "text": "Você digitou caracteres, símbolos ou números inválidos."
+    },
+    "5301": {
+      "text": "Este conteúdo está indisponível."
+    },
+    "5307": {
+      "text": "Você digitou um código promocional incorreto."
+    },
+    "5400": {
+      "text": "Falha ao ativar o código promocional. Tente novamente mais tarde."
+    },
+    "7104": {
+      "text": "E-mail incorreto. "
+    },
+    "7106": {
+      "text": "Erro! Sua conta já está vinculada a {email} e incluída nos e-mails de marketing. "
+    },
+    "7107": {
+      "text": "Erro! Sua conta já está vinculada a {email} e incluída nos e-mails de marketing. "
+    },
+    "7109": {
+      "text": "Erro no envio. Falha ao enviar o e-mail de confirmação."
+    },
+    "7110": {
+      "text": "E-mail incorreto. "
+    },
+    "7111": {
+      "text": "Limite de envios excedido. Falha ao enviar o e-mail de confirmação. Tente de novo mais tarde."
+    },
+    "with_code": {
+      "text": "Não é possível realizar essa operação agora. Código do erro:"
+    }
+  },
+  "home": {
+    "intro": {
+      "title": "ÚNETE A LA CAZA DEL TESORO DEFINITIVA",
+      "button": "JOGAR JÁ!",
+      "button_play": "JOGAR JÁ!"
+    },
+    "rally": {
+      "bubble": "EVENTO DE TEMPO LIMITADO!",
+      "title": "UM FURTO<br>FESTIVO",
+      "subtitle": "SALVE AS ESTAS!",
+      "text": "É hora de curtir o saguão do Furafendas. Complete missões temáticas para achar o ladrão das festas e garantir itens exclusivos dessa época.",
+      "button": "SAIBA MAIS"
+    },
+    "raider": {
+      "bubble": "PILHE GERAL!",
+      "title": "TESOURO!",
+      "subtitle": "PACOTES SAQUEADORES",
+      "text": "Desbloqueie conjuntos especiais cheios de moedas do jogo, consumíveis e cosméticos exclusivos.",
+      "button": "COMPRE AGORA!"
+    },
+    "top-up": {
+      "bubble": "APROVEITE!",
+      "title": "MOEDAS DO GE-0",
+      "subtitle": "MOEDA PREMIUM",
+      "text": "Achou algo que agradou aos olhos? Compre Moedas do GE-0 para usar em cosméticos, no Passe Renegado e muito mais!",
+      "button": "COMPRE AGORA!"
+    },
+    "twitch-drops": {
+      "bubble": "ASSISTA E GANHE!",
+      "title": "DROPS<br>DA TWITCH",
+      "subtitle": "ASSISTIU, GANHOU",
+      "text": "Assista as transmissões selecionadas de HAWKED na Twitch e ganhe conteúdos especiais! Deixe tudo pronto conectando a sua conta com a Twitch hoje.",
+      "button": "PODE COMEÇAR!"
+    },
+    "trailer": {
+      "button": "VEJA O TRAILER"
+    },
+    "about": {
+      "main": {
+        "bubble": "TORNE-SE UM RENEGADO!",
+        "title": "JUNTE-SE À<br>CAÇADA!",
+        "subtitle": "BOAS-VINDAS AO HAWKED",
+        "text": "HAWKED é um jogo de tiro e extração online gratuito, disponível para PC Windows, PlayStation 4, PlayStation 5 e Xbox Series X|S. Participe da grande caça ao tesouro, explore e enfrente um mundo misterioso em busca de antigos tesouros.",
+        "button": "SAIBA MAIS"
+      },
+      "list": [
+        {
+          "title": "SURPREENDA E SUPERE!",
+          "text": "Encontre armas e munição, lute contra os terríveis Discípulos e os Renegados rivais que cruzarem o seu caminho na Ilha-X!"
+        },
+        {
+          "title": "EXPLORE A ILHA-X!",
+          "text": "Aventure-se em um mundo místico e em constante evolução com belas paisagens, florestas densas e antigas ruínas!"
+        },
+        {
+          "title": "PILHE GERAL!",
+          "text": "Resolva quebra-cabeças e derrote inimigos para roubar Artefatos. Extraia e melhore seus Artefatos para desbloquear novos poderes!"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ"
+    },
+    "news": {
+      "title": "NOVIDADES",
+      "bubble": "FIQUE POR DENTRO!",
+      "more": "MAIS NOVIDADES"
+    },
+    "media": {
+      "title": "MÍDIA",
+      "bubble": "PERFEIÇÃO!",
+      "more": "VEJA MAIS!"
+    },
+    "social": {
+      "title": [
+        "CONECTE-SE",
+        "COM HAWKED"
+      ],
+      "bubble": "FAÇA AMIGOS!",
+      "networks": [
+        {
+          "type": "facebook",
+          "link": "https://www.facebook.com/HAWKEDGame/"
+        },
+        {
+          "type": "instagram",
+          "link": "https://www.instagram.com/playhawked/"
+        },
+        {
+          "type": "youtube",
+          "link": "https://www.youtube.com/{'@'}playHAWKED"
+        },
+        {
+          "type": "twitch",
+          "link": "https://www.twitch.tv/PlayHawked"
+        },
+        {
+          "type": "discord",
+          "link": "https://discord.gg/hawked"
+        },
+        {
+          "type": "tiktok",
+          "link": "https://www.tiktok.com/{'@'}playhawkedbr"
+        },
+        {
+          "type": "reddit",
+          "link": "https://www.reddit.com/r/Hawked/"
+        },
+        {
+          "type": "twitter",
+          "link": "https://twitter.com/PlayHAWKED"
+        }
+      ],
+      "subscribe": {
+        "title": "NEWSLETTER OFICIAL",
+        "text": "Fique por dentro do mundo dos Renegados. Notícias de atualizações, eventos, ofertas especiais e muito mais, direto na sua caixa de entrada. Inscreva-se e receba o <b>Chapéu de Arqueólogo GRÁTIS</b>!",
+        "button": "ASSINE JÁ!"
+      }
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "A OUSADIA FAVORECE A SORTE",
+      "text": "Em uma ilha misteriosa, criaturas reptilianas conhecidas apenas como Discípulos buscam antigas e poderosas relíquias. Torne-se um Renegado e combata fogo com fogo pilhando, extraindo e escapando com os Artefatos!"
+    },
+    "features": [
+      {
+        "title": "CACE E JUNTE",
+        "text": "Consiga armas e munições na ilha, melhore a sua bagagem, desbloqueie habilidades e poderes especiais e use os místicos Artefatos para passar a perna nos Discípulos e nos Renegados rivais."
+      },
+      {
+        "title": "ADAPTE-SE E SUPERE",
+        "text": "Lembre-se: a inteligência é a melhor arma! Resolva quebra-cabeças, desvie de armadilhas mortais, encontre Glifos para desbloquear Tesouros e aprimore suas habilidades de caça ao tesouro e garanta o melhor saque."
+      },
+      {
+        "title": "EXPLORE E AVENTURE-SE",
+        "text": "Faça parte desta história conforme ela acontece através de eventos e Edições. Descubra regiões, recompensas e tesouros, faça amigos e inimigos, e muito mais com as atualizações recorrentes."
+      }
+    ],
+    "extraction": [
+      {
+        "title": "COLETE GLIFOS",
+        "text": "Complete confrontos pela Ilha-X para obter Glifos. Colete 5 para revelar o local do Tesouro!"
+      },
+      {
+        "title": "ABRA O TESOURO",
+        "text": "Atire nos Glifos da porta do Tesouro na ordem correta para revelar o Artefato escondido."
+      },
+      {
+        "title": "EXTRAIA O ARTEFATO",
+        "text": "Traga seus Artefatos para o Furafendas pelos Pontos de Extração na Ilha-X."
+      }
+    ],
+    "map": {
+      "bubble": "RECONHECIMENTO!",
+      "title": "BOAS-VINDAS<br>À ILHA-X",
+      "info": {
+        "title": "Um mundo misterioso aguarda.",
+        "text": "Esta mística e misteriosa ilha cercada de tempestade foi o lar de uma civilização perdida. Ela é recheada de templos, tesouros e oportunidades sem fim para explorar seus segredos e pilhar geral!"
+      },
+      "points": {
+        "garrharbor": {
+          "name": "PORTO GAR",
+          "text": "Uma região costeira onde os Discípulos se juntam para vasculhar destroços perdidos na tempestade. Também é o posto pesqueiro principal da ilha (dica de mestre: tape o nariz)."
+        },
+        "cursed_tombs": {
+          "name": "TUMBAS AMALDIÇOADAS",
+          "text": "Um local assombrado para onde são trazidos os guerreiros Discípulos que sucumbiram, ‘retornando à ilha’ num ritual de ressuscitação para lutarem novamente."
+        },
+        "feeding_grounds": {
+          "name": "CAMPOS DE ALIMENTAÇÃO",
+          "text": "O ponto central da Ilha-X, um lugar sagrado para os Discípulos e para a civilização antiga. Os Artefatos ganham sua poderosa magia ao serem forjados em seu grande fosso... mas o que tem lá no fundo?"
+        },
+        "river_village": {
+          "name": "VILA NO RIO",
+          "text": "Outrora um movimentado centro comercial para os antigos habitantes da ilha, esta vila decrépita agora é um antro de depravação dos desprezíveis Discípulos."
+        },
+        "beacon": {
+          "name": "O FAROL",
+          "text": "A luz que te guia. Uma construção imponente criada pela civilização perdida, dizem ter conexão com uma tempestade sobrenatural que tomou a Ilha-X."
+        },
+        "raiding_portal": {
+          "name": "PORTAL DE INVASÃO",
+          "text": "Uma das tentativas dos Discípulos de estender suas garras escamosas até o amplo mundo da humanidade. Não funciona... por enquanto."
+        },
+        "training_halls": {
+          "name": "SALAS DE TREINAMENTO",
+          "text": "Os Discípulos lutam nessa arena para subir nos ranques reptilianos. Outrora um lugar para camaradagens, eles foram remodelados para dar conta dos desejos e vontades primitivas dos Discípulos. "
+        },
+        "mountain_temple": {
+          "name": "TEMPLO DA MONTANHA",
+          "text": "Os sábios da civilização perdida o usavam para comungar com a energia da ilha através de prática e música mística. Agora, os Discípulos que usam magia vêm até aqui para aperfeiçoar-se. "
+        },
+        "marsh_hollow": {
+          "name": "PÂNTANO OCO",
+          "text": "Esses brejos formam o pano de fundo para um templo encavado na face de um poderoso penhasco. A construção ancestral irrompe o céu e finca-se nos brejos recheados de Artefatos."
+        }
+      }
+    },
+    "hero": {
+      "bubble": "PARCEIROS DE CRIME!",
+      "title": "O FURAFENDAS",
+      "info": {
+        "title": "BOAS-VINDAS À SEDE SUBAQUÁTICA DA GRAIL.",
+        "text": "De tamanho descomunal e capaz de resistir às águas traiçoeiras da Ilha-X, ele é o lar dos melhores caçadores de aluguel da GRAIL."
+      },
+      "list": {
+        "bodhi_hogan": {
+          "name": "BODHI HOGAN",
+          "text": "Renegado em busca de emoções no melhor das suas habilidades de caçar tesouros. Ele vai te dar uma mão, contanto que você não vire competição."
+        },
+        "bjorn_bjornsson": {
+          "name": "DR. BJORN BJORNSSON",
+          "text": "Cientista e Renegado especializado em geologia e vulcanologia, ele é uma enciclopédia ambulante de conhecimento factual e especulativo sobre a Ilha-X."
+        },
+        "nellie_ruffin": {
+          "name": "NELLIE RUFFIN",
+          "text": "Anos de amotinação nos ranques dos Discípulos fizeram dessa Renegada a maior especialista em atacar a horda bem onde dói."
+        },
+        "agent_cynthia": {
+          "name": "AGENTE CYNTHIA",
+          "text": "Renegada que atua como treinadora da GRAIL no Furafendas, esta agente sabe como conseguir resultados do seu animado bando de bandidos."
+        },
+        "ge_0": {
+          "name": "GE-0",
+          "text": "Contramestre robótico da GRAIL designado para o Furafendas. Sua função primária é coletar Artefatos pilhados pelos Renegados - oferecendo algo em troca, é claro."
+        }
+      }
+    }
+  },
+  "subscribe": {
+    "header": {
+      "title": "ASSINE!",
+      "bubble": "PEGUE SEU CHAPÉU!"
+    },
+    "gift": {
+      "name": "CHAPÉU DE ARQUEÓLOGO",
+      "tag": "PRESENTE"
+    },
+    "not_auth": {
+      "title": "RECEBA UM PRESENTE<br>GRÁTIS EM 3 CLIQUES!",
+      "text": "Faça login ou registre-se para assinar a newsletter oficial de HAWKED e receber seu <b>Chapéu de Arqueólogo GRÁTIS</b> em 3 cliques!",
+      "button": "ASSINE JÁ!"
+    },
+    "form": {
+      "title": "RECEBA UM PRESENTE<br>GRÁTIS EM 2 CLIQUES!",
+      "text": "Você entrou com uma conta vinculada ao seguinte endereço de e-mail:",
+      "placeholder": "SEU ENDEREÇO DE E-MAIL",
+      "agreements": "Eu desejo receber as notícias mais recentes, as comunicações personalizadas de marketing e as ofertas especiais de HAWKED por e-mail.",
+      "button": "ASSINE"
+    },
+    "send": {
+      "title": "RECEBA UM PRESENTE<br>GRÁTIS EM 1 CLIQUES!",
+      "text": "E-mail de confirmação enviado para: {email}. Não se esqueça de conferir sua pasta de spam se não encontrar o e-mail na sua caixa de entrada.",
+      "cant_resend": "Por medida de segurança, você precisa aguardar 10 minutos antes de enviar outro e-mail de confirmação. Se o problema persistir, entre em contato com a equipe de Suporte.",
+      "button": "REENVIAR"
+    },
+    "success": {
+      "title": "VOCÊ FEZ A ASSINATURA DE HAWKED!",
+      "text": "Parabéns, você se tornou assinante! Seu <b>Chapéu de Arqueólogo grátis</b> estará disponível em breve dentro do jogo. Fique de olho na sua caixa de correio para receber as últimas novidades em HAWKED.",
+      "button": "IR PARA A PÁGINA INICIAL"
+    },
+    "features": {
+      "title": "ASSINE HAWKED PARA RECEBER:",
+      "list": {
+        "news": {
+          "title": "TODAS AS NOTÍCIAS MAIS RECENTES",
+          "text": "Fique por dentro das informações mais recentes sobre atualizações, eventos e mais em HAWKED, direto na sua caixa de entrada."
+        },
+        "offers": {
+          "title": "OFERTAS ESPECIAIS",
+          "text": "Anda caçando pechinchas? Receba notificações sobre novas promoções e novos descontos dentro do jogo, além de ofertas exclusiva para assinantes."
+        },
+        "benefits": {
+          "title": "BENEFÍCIOS EXCLUSIVOS",
+          "text": "Somente para você! Como assinante, você pode receber comunicados personalizados e presentes grátis, para ajudar a levar seu jogo a um novo patamar."
+        }
+      }
+    }
+  },
+  "news": {
+    "header": {
+      "title": "NOVIDADES E ATUALIZAÇÕES",
+      "bubble": "FIQUE POR DENTRO!"
+    },
+    "more": "MAIS NOVIDADES",
+    "no_news": "Não há novidades nesta categoria. Volte outra hora para ver atualizações!",
+    "all": "TUDO"
+  },
+  "press": {
+    "title": "KIT DE IMPRENSA",
+    "text": [
+      "Você é criador de conteúdo ou jornalista com interesse em cobrir HAWKED?",
+      "Baixe o Kit de Imprensa para conseguir assets e informações do jogo ou entre em contato conosco via <a href=\"mailto:press{'@'}my.games\">press{'@'}my.games</a> para mais informações."
+    ],
+    "bubble": "O QUE HÁ DE MELHOR!",
+    "button": "BAIXAR KIT DE IMPRENSA"
+  },
+  "faq": {
+    "title": "PERGUNTAS FREQUENTES",
+    "bubble": "TUDO QUE VOCÊ PRECISA SABER!"
+  },
+  "media": {
+    "title": "MÍDIA",
+    "bubble": "PERFEIÇÃO!",
+    "categories": {
+      "all": "Tudo",
+      "screenshot": "CAPTURA DE TELA",
+      "video": "VÍDEOS",
+      "art": "ARTE CONCEITUAL"
+    }
+  },
+  "account": {
+    "title": "MINHA CONTA",
+    "bubble": "SUAS INFORMAÇÕES ESTÃO AQUI!",
+    "noauth": {
+      "title": "",
+      "text": "Boas-vindas à sua Conta! Aqui você pode entrar ou se registrar para acessar seus detalhes, conferir seu ID de Jogador, conectar sua conta com novas plataformas e trocar sua senha."
+    },
+    "categories": {
+      "user": "INFO DA CONTA"
+    },
+    "user": {
+      "nickname": "USUÁRIO:",
+      "user_id": "ID DE USUÁRIO:",
+      "change_password": "REDEFINIR SENHA"
+    },
+    "twitch": {
+      "connect": {
+        "title": "CONECTE SUA CONTA DO JOGO:",
+        "button": "CONECTAR COM A TWITCH"
+      },
+      "stream": {
+        "title": "VOCÊ ESTA NA CONTA:",
+        "twitch": "SUA CONTA TWITCH:",
+        "button": "ASSISTIR NA TWITCH"
+      }
+    }
+  },
+  "twitchdrops": {
+    "title": "DROPS DA TWITCH",
+    "not_auth": {
+      "title": "CONECTE SUA CONTA DO JOGO:",
+      "button": "LOGIN OU REGISTRAR-SE",
+      "note": "Selecione e entre na conta da plataforma em que você jogou HAWKED. Caso não consiga entrar, verifique se as janelas pop-up estão habilitadas."
+    },
+    "connect": {
+      "login": "CONECTE SUA CONTA DO JOGO:",
+      "logout": "Sair",
+      "button": "CONECTAR COM A TWITCH",
+      "note": "Clique no botão para terminar de conectar com a Twitch."
+    },
+    "stream": {
+      "login": "CONECTE SUA CONTA DO JOGO:",
+      "twitch": "SUA CONTA TWITCH:",
+      "button": "ASSISTIR NA TWITCH",
+      "note": "IMPORTANTE: Uma conta HAWKED pode ser conectar com apenas uma conta Twitch. Para mudar a conta conectada, acesse a Twitch e desconecte HAWKED em “Outras conexões” nas configurações de conta."
+    },
+    "errors": {
+      "text": "DEU ALGO ERRADO. TENTE RECARREGAR A PÁGINA."
+    },
+    "features": [
+      {
+        "title": "1. CONECTE SUAS CONTAS",
+        "text": "Siga os passos nesta página para conectar sua conta Twitch com a conta HAWKED na qual quer resgatar Drops da Twitch."
+      },
+      {
+        "title": "2. FIQUE LIGADO",
+        "text": "Assista transmissões de HAWKED na Twitch feitas pelos criadores participantes da campanha."
+      },
+      {
+        "title": "3. RESGATAR RECOMPENSAS",
+        "text": "Assista por tempo suficiente, resgate seus Drops no <a href=\"https://www.twitch.tv/drops/inventory\">Inventário da Twitch</a> e receba as recompensas no jogo!"
+      }
+    ],
+    "reward": {
+      "bubble": "ASSISTA E GANHE!",
+      "title": "DROPS NOVOS!"
+    }
+  },
+  "top_up": {
+    "title": "MOEDAS DO<br />GE-0",
+    "bubble": "RECARREGUE!",
+    "change_currency": "TROCAR MOEDA",
+    "intro": {
+      "subtitle": "MOEDA PREMIUM",
+      "description": "Achou algo que agradou aos olhos? Compre Moedas do GE-0 para comprar o Passe Renegado atual, cosméticos como Trajes e Emotes e muito mais!"
+    },
+    "offer": {
+      "buy_button": "COMPRAR",
+      "best_deal": "MELHOR VALOR!",
+      "one_time_offer": "OFERTA ÚNICA"
+    },
+    "balance": {
+      "label": "SALDO:"
+    },
+    "payment_info": {
+      "title": "COMRAR {offer_name} PARA LA CUENTA:",
+      "refresh_button": "Atualize o status do seu pagamento"
+    },
+    "error": {
+      "title": "ALGO DEU ERRADO",
+      "button": "RECARREGAR"
+    },
+    "success": {
+      "title": "PAGAMENTO CONCLUÍDO!",
+      "message": "Suas Moedas do GE-0 estarão disponíveis no jogo nos próximos 15 minutos. Aproveite, Renegado!"
+    },
+    "packs": {
+      "bubble": "TESOURO!",
+      "title": "PACOTES SAQUEADORES",
+      "subtitle": "PILHE GERAL!",
+      "text": "Os Pacotes Saqueadores vêm com vários conteúdo do jogo, incluindo moedas, consumíveis e cosméticos exclusivos.",
+      "button": "COMPRE AGORA!"
+    },
+    "game_center": {
+      "balance": "SALDO: {balance} MOEDAS DO GE-0",
+      "balance_error": "SALDO: ERRO",
+      "selected": "RECOMENDADO"
+    },
+    "popups": {
+      "shard_error": {
+        "title": "COMPRAS NÃO PODEM SER COMPLETADAS AGORA. TENTE DE NOVO MAIS TARDE."
+      },
+      "character_error": {
+        "title": "IMPORTANTE!",
+        "body": "Antes de fazer uma compra, você precisa ter jogado HAWKED pelo menos uma vez."
+      }
+    },
+    "alarm_disclaimer": "Ao finalizar a compra, você concorda que o conteúdo digital ficará disponível para você imediatamente. Você consente e reconhece que, consequentemente, renuncia ao seu direito estatutário automático de cancelamento, exceto se o conteúdo digital estiver defeituoso."
+  },
+  "purchase_pending": {
+    "default": {
+      "success": {
+        "title": "PROCESSANDO PAGAMENTO..."
+      },
+      "fail": {
+        "button": "CONTATAR O SUPORTE",
+        "link": "https://support.my.games/hw",
+        "title": "ALGO DEU ERRADO"
+      }
+    },
+    "steam": {
+      "success": {
+        "top-up": {
+          "button": "JOGUE AGORA!",
+          "title": "AGRADECEMOS PELA SUA COMPRA!",
+          "text": "Você receberá um e-mail da Steam confirmando sua compra. Seus novos itens estarão disponíveis no jogo em breve."
+        }
+      },
+      "fail": {
+        "button": "CONTATAR O SUPORTE",
+        "link": "https://help.steampowered.com",
+        "title": "ALGO DEU ERRADO",
+        "text": "Não foi possível concluir a compra devido a um erro no pagamento. Tente novamente ou contate o <b>Suporte Steam</b>."
+      }
+    }
+  },
+  "preorder": {
+    "steam": {
+      "warning": "Estamos abrindo sua Carteira Steam para prosseguir com a compra em uma janela do navegador. Se você estiver lendo isso, ou você já fez seu pagamento (agradecemos!), ou a janela pop-up não foi aberta corretamente. Confira a notificação na barra de endereço do seu navegador, ou na área de notificações, e permita que a nossa página seja aberta em pop-up. Ou então, use este {link_html}.",
+      "link_text": "link"
+    }
+  },
+  "gamecenter": {
+    "about": {
+      "title": "SE JOGUE NA AVENTURA!!",
+      "text": "HAWKED é um jogo de tiro JvJvA de extração online grátis para PC e consoles. Chame seu bando para explorar um novo mundo enquanto batalha e engana outros jogadores, escapando com um belo saque de tesouros ancestrais!",
+      "button": "ASSISTA AO TRAILER"
+    }
+  },
+  "promocode": {
+    "title": "RESGATE SEU CÓDIGO",
+    "bubble": "O QUE HÁ DE MELHOR",
+    "noauth": {
+      "title": " ",
+      "text": "Você não precisar ir até a Ilha-X e para encontrar tesouros. Entre para resgatar códigos de promoção e desbloqueie conteúdos especiais em HAWKED!",
+      "button": "LOGIN OU REGISTRO"
+    },
+    "tabs": {
+      "activation": "ATIVAÇÃO",
+      "history": "HISTÓRICO"
+    },
+    "code_enter_placeholder": "INSIRA SEU CÓDIGO",
+    "code_enter_button": "VISUALIZAR CONTEÚDO(S)",
+    "code_view_title": "CONTEÚDOS DO CÓDIGO PROMO:",
+    "code_view_button": "RESGATAR",
+    "code_success_title": "CÓDIGO PROMO ATIVADO!",
+    "code_success_text": "Seus itens esperam no jogo.",
+    "code_success_button": "ATIVAR OUTRO CÓDIGO",
+    "return": "VOLTAR",
+    "history_null": "SEM CÓDIGOS RESGATADOS",
+    "history_loading": "Carregando Histórico...",
+    "history_headings": [
+      "CÓDIGO PROMO",
+      "DATA/HORA",
+      "CONTEÚDO(S)"
+    ],
+    "statuses": {
+      "10": {
+        "text": "Processando"
+      },
+      "20": {
+        "text": "Processando"
+      },
+      "30": {
+        "text": "Erro de Ativação: ",
+        "extra": "Código de Erro: {error}"
+      },
+      "40": {
+        "text": "Itens Ativados: "
+      }
+    }
+  },
+  "packs": {
+    "content": {
+      "popup": {
+        "title": "O PACOTE CONTÉM:"
+      },
+      "categories": {
+        "renegade": "Personalização de Renegado",
+        "item": "Personalização de Item",
+        "quarters": "Personalização do Alojamento",
+        "premium": "Conteúdo Premium"
+      },
+      "rewards": {
+        "trophy_hunter": {
+          "name": "Caçador de Troféus",
+          "description": "Mantenha seus inimigos na mira com este visual de caçador para seu Rifle de Assalto.",
+          "type": "Visual de Arma"
+        },
+        "saurian_spoils": {
+          "name": "Espólios Sáurios",
+          "description": "Um estranho acessório dos Discípulos para carregar suas coisas.",
+          "type": "Mochila"
+        },
+        "predator": {
+          "name": "Predador",
+          "description": "Persiga sua presa nesta prancha de couro.",
+          "type": "Prancha"
+        },
+        "rended_claws": {
+          "name": "Garras Lacerantes",
+          "description": "Garras místicas afiadas tiradas de um inimigo terrível.",
+          "type": "Atravessador"
+        },
+        "grave_relic": {
+          "name": "Relíquia Sombria",
+          "description": "Decoração com Destruição.",
+          "type": "Souvenir"
+        },
+        "scaly_stash": {
+          "name": "Estoque Escamoso",
+          "description": "Rústico, mas muito seguro.",
+          "type": "Armário"
+        },
+        "disciple_hunter": {
+          "name": "Caçador de Discípulos",
+          "description": "Leve sua caçada até os confins da Ilha-X.",
+          "type": "Traje ♂"
+        },
+        "disciple_huntress": {
+          "name": "Caçadora de Discípulos",
+          "description": "O terror dos Discípulos.",
+          "type": "Traje ♀"
+        },
+        "shimmering_scales": {
+          "name": "Escalas Cintilantes",
+          "description": "Personalize seus trajes e se brilhe na batalha.",
+          "type": "Esquema de Cores"
+        },
+        "renegade_pass": {
+          "name": "Passe Renegado",
+          "description": "Desbloqueia o acesso às recompensas Premium da Edição.",
+          "type": ""
+        },
+        "cash": {
+          "name": "MOEDAS DO GE-0",
+          "description": "Uma moeda premium para gastar em cosméticos do jogo e muito mais.",
+          "type": "",
+          "value": {
+            "amethyst": "120",
+            "diamond": "300"
+          }
+        },
+        "grail_subscription": {
+          "name": "ASSINATURA GRAIL+",
+          "description": "Uma assinatura premium com um bônus de EXP e recompensas de partidas.",
+          "type": "",
+          "value": {
+            "amethyst": "30 DIAS",
+            "diamond": "90 DIAS"
+          }
+        }
+      }
+    },
+    "cards": {
+      "unavailable": "INDISPONÍVEL",
+      "best_deal": "MELHOR!",
+      "acquired": "COMPRADO",
+      "info": "VER CONTEÚDO",
+      "steam_buy_button": "COMPRAR"
+    },
+    "top_up_banner": {
+      "bubble": "RECARREGUE!",
+      "title": "MOEDAS DO GE-0",
+      "subtitle": "MOEDA PREMIUM",
+      "text": "Encha seus cofres de Renegado com as Moedas do GE-0, uma moeda especial do jogo para você gastar no Passe Renegado, em cosméticos como Trajes, Padrões de Armas, Emotes e muito mais.",
+      "button": "COMPRE AGORA!"
+    },
+    "intro": {
+      "bubble": "TESOURO!",
+      "title": "PACOTES SAQUEADORES",
+      "subtitle": "PILHE GERAL!",
+      "text": "Os Pacotes Saqueadores vêm com vários conteúdo do jogo, incluindo moedas, consumíveis e cosméticos exclusivos."
+    },
+    "payment": {
+      "header": "COMPRAR UM PACOTE",
+      "success_message": "Seus novos itens estarão disponíveis no jogo nos próximos 15 minutos. Aproveite seu Pacote Saqueador!"
+    }
+  },
+  "rally": {
+    "intro": {
+      "bubble": "JUNTE-SE À GRAIL AGORA!",
+      "title": "CORRIDA<br>DOS RENEGADOS",
+      "subtitle": "CORRA POR PRÊMIOS!",
+      "text": "A GRAIL precisa de mais mãos na ilha... Para isso, precisamos da sua ajuda. Espalhe a notícia, junte mais Renegados e ajude a GRAIL a alcançar suas metas para ganhar recompensas exclusivas no jogo.",
+      "button": "JUNTE SEUS AMIGOS!"
+    },
+    "timer": {
+      "bubble": "A CORRIDA TERMINA EM..."
+    },
+    "balance": "SEUS TICKETS DA RIFA:",
+    "rewards": {
+      "header": {
+        "enlistment_rewards": "RECOMPENSAS DA CORRIDA",
+        "goals": "METAS DA CORRIDA",
+        "raffle_rewards": "RECOMPENSAS DA RIFA"
+      },
+      "items": {
+        "subscription": {
+          "name": "7 DIAS DE ASSINATURA GRAIL+",
+          "text": "GRAIL+ é uma assinatura que permite maximizar sua pilhagem com um aumento de 20% de Experiência, bônus diários, um espaço de Armário adicional, uma Missão semanal e duas Missões diárias enquanto estiver ativa."
+        },
+        "token_souvenir": {
+          "name": "SOUVENIR MOEDA DA GRAIL",
+          "text": "Um símbolo de pertencimento exclusivo aos membros da organização de caçadores de tesouro mais renomada do mundo."
+        },
+        "dryad_color_scheme": {
+          "name": "ESQUEMA DE CORES DRÍADE",
+          "text": "Em comunhão com a floresta. Use este Esquema de Cores para personalizar o seu Renegado!"
+        },
+        "forest_weapon_pattern": {
+          "name": "PADRÃO DE ARMA GUARDIÃO DA FLORESTA",
+          "text": "Defenda a natureza com este Padrão de Arma para melhorar a sua bagagem."
+        },
+        "chloris_bloom_traverser": {
+          "name": "ATRAVESSADOR FLORESCER",
+          "text": "A aventura desabrocha. Leve este Atravessador e faça o seu nome na Ilha-X!"
+        },
+        "ruby_pack": {
+          "name": "PACOTE SAQUEADOR RUBI (50 PRÊMIOS)",
+          "text": "Descubra os tesouros ocultos da Ilha-X com o Pacote Saqueador Rubi. Inclui um novo Padrão de Arma, Mochila, Prancha e Atravessador!"
+        },
+        "amethyst_pack": {
+          "name": "PACOTE SAQUEADOR AMETISTA (30 PRÊMIOS)",
+          "text": "A lenda do Caçador de Discípulos ressurge com o Pacote Saqueador Ametista. Inclui incríveis Trajes de Renegado, equipamento, moedas e muito mais!"
+        },
+        "diamond_pack": {
+          "name": "PACOTE SAQUEADOR DIAMANTE (20 PRÊMIOS)",
+          "text": "Descubra os segredos mais profundos da Ilha-X com o Pacote Saqueador Diamante. Inclui um Passe Renegado, um Esquema de Cores exclusivo, Trajes, equipamento, moedas e muito mais!"
+        },
+        "ge_0_cash": {
+          "name": "ESTOQUE VITALÍCIO DE MOEDAS DO GE-0 (1 PRÊMIO)",
+          "text": "Moedas do GE-0 podem ser usadas dentro do jogo para comprar o Passe Renegado atual e itens cosméticos como Trajes, Padrões de Arma, Emotes e muito mais! Tire suas dúvidas na seção Perguntas Frequentes."
+        }
+      },
+      "pre_register": "JUNTE-SE À CORRIDA!",
+      "renegades": "{count} RENEGADOS"
+    },
+    "info": {
+      "title": "É hora de reunir os renegados!",
+      "text": [
+        "As coisas estão esquentando na Ilha-X, e a GRAIL precisa de mais mãos para ajudar a descobrir os mistérios e resgatar os tesouros da ilha. Participe da Corrida dos Renegados e ajude a recrutar novos Renegados, lute por recompensas coletivas e a chance de ganhar prêmios na Rifa dos Renegados!",
+        "É fácil participar. Inscreva-se em uma conta HAWKED para entrar na Corrida dos Renegados e você receberá recompensas exclusivas no jogo quando um certo número de jogadores inscritos for atingido. Siga os canais oficiais de HAWKED para ganhar Tickets da Rifa — resgate-os para ter uma chance de ganhar Pacotes Saqueadores e um estoque vitalício de Moedas do GE-0! 101 prêmios estão disponíveis, então é bom jogar pra ganhar.",
+        "O que você está esperando? Entre e traga seus amigos, Renegado!"
+      ],
+      "button": "JUNTE SEUS AMIGOS!"
+    },
+    "sharing": {
+      "title": "SUCESSO!",
+      "text": "Prepare-se para a corrida! Siga o HAWKED nas redes sociais para ganhar mais Tickets da Corrida."
+    },
+    "sharing_all": {
+      "title": "TA-DAH!",
+      "text": "Todos os bônus de Renegado foram recebidos. Continue assim, Renegado!"
+    },
+    "action_end": {
+      "title": "RENEGADOS UNIDOS",
+      "text": "Obrigado por se juntar à Corrida dos Renegados! Por enquanto é isso, mas siga HAWKED nas redes sociais para ficar por dentro das notícias, atualizações e eventos especiais."
+    },
+    "subscribe": {
+      "gift": {
+        "name": "CHAPÉU DE ARQUEÓLOGO",
+        "tag": "PRESENTE"
+      },
+      "form": {
+        "title": "RECEBA UM PRESENTE<br>GRÁTIS EM 2 CLIQUES!",
+        "text": "Você entrou com uma conta vinculada ao seguinte endereço de e-mail:",
+        "placeholder": "SEU ENDEREÇO DE E-MAIL",
+        "agreements": "Eu desejo receber as notícias mais recentes, as comunicações personalizadas de marketing e as ofertas especiais de HAWKED por e-mail. Ao me inscrever, eu permito que a MY.GAMES B.V. use o meu e-mail. Para mais informações sobre como usamos seus dados, acesse a <a href=\"https://documentation.my.games/terms/mygames_privacy\">Política de Privacidade do HAWKED.</a>.",
+        "button": "ASSINE"
+      },
+      "send": {
+        "title": "RECEBA UM PRESENTE<br>GRÁTIS EM 1 CLIQUES!",
+        "text": "Confirmação enviada! Confirme sua inscrição em HAWKED clicando no link em seu e-mail de confirmação.",
+        "cant_resend": "Por medida de segurança, você precisa aguardar 10 minutos antes de enviar outro e-mail de confirmação. Se o problema persistir, entre em contato com a equipe de Suporte."
+      },
+      "resend": {
+        "title": "CONFIRMAÇÃO ENVIADA!",
+        "text": "Você pode reenviar seu e-mail de confirmação em 10 minutos. Não deixe de checar sua pasta de spam!",
+        "button": "REENVIAR"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {year} MY.GAMES B.V. Todos os direitos reservados. Todas as outras marcas registradas são de propriedade de seus respectivos proprietários.",
+    "address": "MY.GAMES B.V., DE ENTREE 256, 1101EE, AMSTERDAM, THE NETHERLANDS",
+    "docs": [
+      {
+        "link": "https://documentation.my.games/terms/mygames_tou",
+        "text": "TERMOS DE USO"
+      },
+      {
+        "link": "https://documentation.my.games/terms/mygames_privacy",
+        "text": "POLÍTICA DE PRIVACIDADE"
+      },
+      {
+        "link": "https://documentation.my.games/terms/imprint",
+        "text": "IMPRESSÃO"
+      },
+      {
+        "link": "https://documentation.my.games/terms/mygames_eula",
+        "text": "EULA"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Documentos jurídicos",
+    "description": "Não deixe de ler os documentos jurídicos do jogo. Você tem que aceitá-los para continuar usando o serviço.",
+    "button": "Continuar",
+    "terms_agreement": "Ao apertar \"continuar\", eu aceito os termos {links}",
+    "links_date": "Você aceitou os documentos a seguir em",
+    "links": [
+      {
+        "url": "https://documentation.my.games/terms/mygames_tou",
+        "pt": "TERMOS DE USO"
+      },
+      {
+        "url": "https://documentation.my.games/terms/mygames_privacy",
+        "pt": "POLÍTICA DE PRIVACIDADE"
+      },
+      {
+        "url": "https://documentation.my.games/terms/imprint",
+        "pt": "IMPRESSÃO"
+      },
+      {
+        "url": "https://documentation.my.games/terms/mygames_eula",
+        "pt": "EULA"
+      }
+    ]
+  },
+  "mygames": {
+    "login": "Entrar",
+    "title": "Complete sua Criação de conta HAWKED",
+    "email_agreement": "Eu desejo receber as notícias mais recentes, as comunicações personalizadas de marketing e as ofertas especiais de HAWKED por e-mail. Leia a <a href=\"https://documentation.my.games/privacy/\">política de privacidade</a> para saber mais.",
+    "terms_agreement": "Ao pressionar \"Continuar\", aceito os termos {links}",
+    "button": "Continuar",
+    "error": {
+      "button": "Voltar ao login",
+      "text": "Deu algo errado. Tente recarregar a página."
+    }
+  }
+}
