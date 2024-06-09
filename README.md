@@ -47,6 +47,8 @@ This will launch the app and you can view it in your browser (see your terminal 
 - **Edit Translations:** The translations will be displayed in a table. Edit the values as needed.
 - **Download Edited Files:** Once you're done with the edits, click the "Download files" button to download the updated JSON files.
 
+![Interface screenshot](./ui.png)
+
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. 
