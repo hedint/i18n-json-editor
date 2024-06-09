@@ -8,6 +8,9 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
+    "lint:js": "eslint .",
+    "lint:fix": "npm run lint:js -- --fix && npm run lint:style -- --fix",
+    "lint": "npm run lint:js",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force"

@@ -26,6 +26,7 @@ export default antfu(
     },
     jsonc: false,
     yaml: false,
+    markdown: false,
   },
   {
     ignores: ["public/**"],
