@@ -21,7 +21,7 @@ To get a local copy of this project up and running, follow these simple steps.
 **Clone the repo:**
 
 ```shell
-git clone https://github.com/your-username/i18n-json-editor.git
+git clone https://github.com/hedint/i18n-json-editor.git
 cd i18n-json-editor
 ```
 
